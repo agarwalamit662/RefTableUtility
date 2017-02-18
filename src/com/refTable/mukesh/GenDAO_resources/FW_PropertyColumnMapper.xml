@@ -1,0 +1,590 @@
+
+<mappers>
+	<property
+		class="gov.state.nextgen.framework.business.entities.cargo.custom.FwBatchCatExceptionsCargo">
+		<map from="jobId" to="JOB_ID" />
+		<map from="asOfDt" to="AS_OF_DT" />
+		<map from="runNum" to="RUN_NUM" />
+		<map from="recordNum" to="RECORD_NUM" />
+		<map from="parallelRunNum" to="PARALLEL_RUN_NUM" />
+		<map from="exceptionId" to="EXCEPTION_ID" />
+		<map from="jobcontext" to="JOBCONTEXT" />
+	</property>
+	<property
+		class="gov.state.nextgen.framework.business.entities.cargo.custom.FwBatchContactCargo">
+		<map from="contactId" to="CONTACT_ID" />
+		<map from="tpId" to="TP_ID" />
+		<map from="secEmail" to="SEC_EMAIL" />
+		<map from="homePhNum" to="HOME_PH_NUM" />
+		<map from="nameFirst" to="NAME_FIRST" />
+		<map from="nameLast" to="NAME_LAST" />
+		<map from="comments" to="COMMENTS" />
+		<map from="busPhNum" to="BUS_PH_NUM" />
+		<map from="cellPhNum" to="CELL_PH_NUM" />
+		<map from="priEmail" to="PRI_EMAIL" />
+		<map from="faxPhNum" to="FAX_PH_NUM" />
+		<map from="pagerPhNum" to="PAGER_PH_NUM" />
+		<map from="createUserId" to="CREATE_USER_ID" />
+		<map from="createDt" to="CREATE_DT" />
+		<map from="updateUserId" to="UPDATE_USER_ID" />
+		<map from="updateDt" to="UPDATE_DT" />
+		<map from="uniqueTransId" to="UNIQUE_TRANS_ID" />
+		<map from="archiveDt" to="ARCHIVE_DT" />
+	</property>
+	<property
+		class="gov.state.nextgen.framework.business.entities.cargo.custom.FwBatchCpcFileStatusCargo">
+		<map from="fileId" to="FILE_ID" />
+		<map from="asOfDt" to="AS_OF_DT" />
+		<map from="fileName" to="FILE_NAME" />
+		<map from="jobId" to="JOB_ID" />
+		<map from="createUserId" to="CREATE_USER_ID" />
+		<map from="updateUserId" to="UPDATE_USER_ID" />
+		<map from="createDt" to="CREATE_DT" />
+		<map from="updateDt" to="UPDATE_DT" />
+		<map from="fileReceivedDt" to="FILE_RECEIVED_DT" />
+		<map from="filePrintDt" to="FILE_PRINT_DT" />
+		<map from="fileMailedDt" to="FILE_MAILED_DT" />
+		<map from="uniqueTransId" to="UNIQUE_TRANS_ID" />
+		<map from="archiveDt" to="ARCHIVE_DT" />
+	</property>
+	<property
+		class="gov.state.nextgen.framework.business.entities.cargo.custom.FwBatchExceptionsCargo">
+		<map from="jobId" to="JOB_ID" />
+		<map from="asOfDt" to="AS_OF_DT" />
+		<map from="runNum" to="RUN_NUM" />
+		<map from="recordNum" to="RECORD_NUM" />
+		<map from="programName" to="PROGRAM_NAME" />
+		<map from="exceptionTimeDt" to="EXCEPTION_TIME_DT" />
+		<map from="exceptionCd" to="EXCEPTION_CD" />
+		<map from="exceptionSummary" to="EXCEPTION_SUMMARY" />
+		<map from="exceptionDetail" to="EXCEPTION_DETAIL" />
+		<map from="createUserId" to="CREATE_USER_ID" />
+		<map from="updateUserId" to="UPDATE_USER_ID" />
+		<map from="createDt" to="CREATE_DT" />
+		<map from="updateDt" to="UPDATE_DT" />
+		<map from="uniqueTransId" to="UNIQUE_TRANS_ID" />
+		<map from="columnType" to="COLUMN_TYPE" />
+		<map from="archiveDt" to="ARCHIVE_DT" />
+		<map from="businessExceptionFlag" to="BUSINESS_EXCEPTION_FLAG" />
+		<map from="parallelRunNum" to="PARALLEL_RUN_NUM" />
+		<map from="reportRunId" to="REPORT_RUN_ID" />
+	</property>
+	<property
+		class="gov.state.nextgen.framework.business.entities.cargo.custom.FwBatchFileControlCargo">
+		<map from="asOfDt" to="AS_OF_DT" />
+		<map from="runNum" to="RUN_NUM" />
+		<map from="fileName" to="FILE_NAME" />
+		<map from="logicalFileName" to="LOGICAL_FILE_NAME" />
+		<map from="jobId" to="JOB_ID" />
+		<map from="fileCreationDt" to="FILE_CREATION_DT" />
+		<map from="recordCount" to="RECORD_COUNT" />
+		<map from="discrepancyQty" to="DISCREPANCY_QTY" />
+		<map from="createUserId" to="CREATE_USER_ID" />
+		<map from="updateUserId" to="UPDATE_USER_ID" />
+		<map from="createDt" to="CREATE_DT" />
+		<map from="updateDt" to="UPDATE_DT" />
+		<map from="uniqueTransId" to="UNIQUE_TRANS_ID" />
+		<map from="archiveDt" to="ARCHIVE_DT" />
+		<map from="statusCd" to="STATUS_CD" />
+		<map from="fileId" to="FILE_ID" />
+		<map from="dependentJobStatus" to="DEPENDENT_JOB_STATUS" />
+		<map from="parameterValue" to="PARAMETER_VALUE" />
+		<map from="metaData" to="META_DATA" />
+	</property>
+	<property
+		class="gov.state.nextgen.framework.business.entities.cargo.custom.FwBatchFtpFileControlCargo">
+		<map from="fileName" to="FILE_NAME" />
+		<map from="environment" to="ENVIRONMENT" />
+		<map from="ftpIpAddress" to="FTP_IP_ADDRESS" />
+		<map from="ftpUserName" to="FTP_USER_NAME" />
+		<map from="ftpPassword" to="FTP_PASSWORD" />
+		<map from="uniqueTransId" to="UNIQUE_TRANS_ID" />
+		<map from="createUserId" to="CREATE_USER_ID" />
+		<map from="createDt" to="CREATE_DT" />
+		<map from="updateUserId" to="UPDATE_USER_ID" />
+		<map from="updateDt" to="UPDATE_DT" />
+		<map from="jobId" to="JOB_ID" />
+		<map from="fileCreateJobId" to="FILE_CREATE_JOB_ID" />
+	</property>
+	<property
+		class="gov.state.nextgen.framework.business.entities.cargo.custom.FwBatchFtpRunControlCargo">
+		<map from="fileId" to="FILE_ID" />
+		<map from="fileStatusCd" to="FILE_STATUS_CD" />
+		<map from="createUserId" to="CREATE_USER_ID" />
+		<map from="updateUserId" to="UPDATE_USER_ID" />
+		<map from="createDt" to="CREATE_DT" />
+		<map from="updateDt" to="UPDATE_DT" />
+		<map from="uniqueTransId" to="UNIQUE_TRANS_ID" />
+		<map from="fileName" to="FILE_NAME" />
+		<map from="targetFileName" to="TARGET_FILE_NAME" />
+	</property>
+	<property
+		class="gov.state.nextgen.framework.business.entities.cargo.custom.FwBatchJobContactCargo">
+		<map from="jobId" to="JOB_ID" />
+		<map from="contactId" to="CONTACT_ID" />
+		<map from="primaryInd" to="PRIMARY_IND" />
+		<map from="contactType" to="CONTACT_TYPE" />
+		<map from="createDt" to="CREATE_DT" />
+		<map from="updateDt" to="UPDATE_DT" />
+		<map from="uniqueTransId" to="UNIQUE_TRANS_ID" />
+		<map from="archiveDt" to="ARCHIVE_DT" />
+		<map from="createUserId" to="CREATE_USER_ID" />
+	</property>
+	<property
+		class="gov.state.nextgen.framework.business.entities.cargo.custom.FwBatchJobMasterCargo">
+		<map from="jobId" to="JOB_ID" />
+		<map from="description" to="DESCRIPTION" />
+		<map from="seqNum" to="SEQ_NUM" />
+		<map from="createUserId" to="CREATE_USER_ID" />
+		<map from="createDt" to="CREATE_DT" />
+		<map from="updateUserId" to="UPDATE_USER_ID" />
+		<map from="updateDt" to="UPDATE_DT" />
+		<map from="uniqueTransId" to="UNIQUE_TRANS_ID" />
+		<map from="archiveDt" to="ARCHIVE_DT" />
+	</property>
+	<property
+		class="gov.state.nextgen.framework.business.entities.cargo.custom.FwBatchJobTradePartnerCargo">
+		<map from="tpId" to="TP_ID" />
+		<map from="comments" to="COMMENTS" />
+		<map from="orgName" to="ORG_NAME" />
+		<map from="createUserId" to="CREATE_USER_ID" />
+		<map from="createDt" to="CREATE_DT" />
+		<map from="updateUserId" to="UPDATE_USER_ID" />
+		<map from="updateDt" to="UPDATE_DT" />
+		<map from="uniqueTransId" to="UNIQUE_TRANS_ID" />
+		<map from="archiveDt" to="ARCHIVE_DT" />
+	</property>
+	<property class="gov.state.nextgen.framework.business.entities.cargo.custom.FwBatchPrlelRunCargo">
+		<map from="jobId" to="JOB_ID"/> 
+		<map from="fwKey" to="FW_KEY"/> 
+		<map from="parallelRunId" to="PARALLEL_RUN_ID"/> 
+		<map from="value" to="VALUE"/> 
+		<map from="createUserId" to="CREATE_USER_ID"/> 
+		<map from="updateUserId" to="UPDATE_USER_ID"/> 
+		<map from="createDt" to="CREATE_DT"/> 
+		<map from="updateDt" to="UPDATE_DT"/> 
+		<map from="uniqueTransId" to="UNIQUE_TRANS_ID"/> 
+		<map from="archiveDt" to="ARCHIVE_DT"/> 
+		<map from="statusCd" to="STATUS_CD"/> 
+	</property>
+	<property class="gov.state.nextgen.framework.business.entities.cargo.custom.FwBatchPrlelRunControlCargo">
+		<map from="jobId" to="JOB_ID"/> 
+		<map from="asOfDt" to="AS_OF_DT"/> 
+		<map from="fwKey" to="FW_KEY"/> 
+		<map from="parallelRunId" to="PARALLEL_RUN_ID"/> 
+		<map from="parallelRunNum" to="PARALLEL_RUN_NUM"/> 
+		<map from="createUserId" to="CREATE_USER_ID"/> 
+		<map from="updateUserId" to="UPDATE_USER_ID"/> 
+		<map from="createDt" to="CREATE_DT"/> 
+		<map from="updateDt" to="UPDATE_DT"/> 
+		<map from="uniqueTransId" to="UNIQUE_TRANS_ID"/> 
+		<map from="dataValue" to="DATA_VALUE"/> 
+	</property>
+	<property
+		class="gov.state.nextgen.framework.business.entities.cargo.custom.FwBatchPrlelRunKeysCargo">
+		<map from="processorJobId" to="PROCESSOR_JOB_ID" />
+		<map from="preprocessorJobId" to="PREPROCESSOR_JOB_ID" />
+		<map from="processorKey" to="PROCESSOR_KEY" />
+		<map from="preprocessorKey" to="PREPROCESSOR_KEY" />
+		<map from="createUserId" to="CREATE_USER_ID" />
+		<map from="updateUserId" to="UPDATE_USER_ID" />
+		<map from="createDt" to="CREATE_DT" />
+		<map from="updateDt" to="UPDATE_DT" />
+		<map from="uniqueTransId" to="UNIQUE_TRANS_ID" />
+		<map from="archiveDt" to="ARCHIVE_DT" />
+	</property>
+	<property class="gov.state.nextgen.framework.business.entities.cargo.custom.FwBatchRestartControlCargo">
+		<map from="jobId" to="JOB_ID"/> 
+		<map from="asOfDt" to="AS_OF_DT"/> 
+		<map from="runNum" to="RUN_NUM"/> 
+		<map from="fwKey" to="FW_KEY"/> 
+		<map from="parallelRunId" to="PARALLEL_RUN_ID"/> 
+		<map from="value" to="VALUE"/> 
+		<map from="createUserId" to="CREATE_USER_ID"/> 
+		<map from="updateUserId" to="UPDATE_USER_ID"/> 
+		<map from="createDt" to="CREATE_DT"/> 
+		<map from="updateDt" to="UPDATE_DT"/> 
+		<map from="uniqueTransId" to="UNIQUE_TRANS_ID"/> 
+	</property>
+	<property
+		class="gov.state.nextgen.framework.business.entities.cargo.custom.FwBatchSummaryCargo">
+		<map from="jobId" to="JOB_ID" />
+		<map from="asOfDt" to="AS_OF_DT" />
+		<map from="runNum" to="RUN_NUM" />
+		<map from="recordNum" to="RECORD_NUM" />
+		<map from="summary" to="SUMMARY" />
+		<map from="createUserId" to="CREATE_USER_ID" />
+		<map from="updateUserId" to="UPDATE_USER_ID" />
+		<map from="createDt" to="CREATE_DT" />
+		<map from="updateDt" to="UPDATE_DT" />
+		<map from="uniqueTransId" to="UNIQUE_TRANS_ID" />
+		<map from="programName" to="PROGRAM_NAME" />
+		<map from="columnType" to="COLUMN_TYPE" />
+		<map from="archiveDt" to="ARCHIVE_DT" />
+		<map from="reportRunId" to="REPORT_RUN_ID" />
+		<map from="parallelRunNum" to="PARALLEL_RUN_NUM" />
+	</property>
+	<property
+		class="gov.state.nextgen.framework.business.entities.cargo.custom.FwBatchTxnLogCargo">
+		<map from="txnLogId" to="TXN_LOG_ID" />
+		<map from="auLogDt" to="AU_LOG_DT" />
+		<map from="batchId" to="BATCH_ID" />
+		<map from="tableNames" to="TABLE_NAMES" />
+		<map from="modeCd" to="MODE_CD" />
+		<map from="createUserId" to="CREATE_USER_ID" />
+		<map from="updateUserId" to="UPDATE_USER_ID" />
+		<map from="createDt" to="CREATE_DT" />
+		<map from="updateDt" to="UPDATE_DT" />
+		<map from="uniqueTransId" to="UNIQUE_TRANS_ID" />
+		<map from="archiveDt" to="ARCHIVE_DT" />
+	</property>
+	<property
+		class="gov.state.nextgen.framework.business.entities.FwErrorContextCargo">
+		<map from="referenceId" to="REFERENCE_ID" />
+		<map from="methodName" to="METHOD_NAME" />
+		<map from="actionId" to="ACTION_ID" />
+		<map from="serviceName" to="SERVICE_NAME" />
+		<map from="sessionId" to="SESSION_ID" />
+		<map from="jobId" to="JOB_ID" />
+		<map from="runNum" to="RUN_NUM" />
+		<map from="asOfDt" to="AS_OF_DT" />
+		<map from="parallelRunNum" to="PARALLEL_RUN_NUM" />
+		<map from="threadId" to="THREAD_ID" />
+		<map from="environmentTypeInd" to="ENVIRONMENT_TYPE_IND" />
+		<map from="createUserId" to="CREATE_USER_ID" />
+		<map from="createDt" to="CREATE_DT" />
+		<map from="updateUserId" to="UPDATE_USER_ID" />
+		<map from="updateDt" to="UPDATE_DT" />
+		<map from="uniqueTransId" to="UNIQUE_TRANS_ID" />
+		<map from="archiveDt" to="ARCHIVE_DT" />
+		<map from="serverName" to="SERVER_NAME" />
+		<map from="referenceText" to="REFERENCE_TEXT" />
+		<map from="errorPageDisplayedSw" to="ERROR_PAGE_DISPLAYED_SW" />
+	</property>
+	<property
+		class="gov.state.nextgen.framework.business.entities.FwErrorLogCargo">
+		<map from="referenceId" to="REFERENCE_ID" />
+		<map from="exceptionNum" to="EXCEPTION_NUM" />
+		<map from="exceptionDt" to="EXCEPTION_DT" />
+		<map from="exceptionSeverity" to="EXCEPTION_SEVERITY" />
+		<map from="exceptionSummary" to="EXCEPTION_SUMMARY" />
+		<map from="exceptionDetail" to="EXCEPTION_DETAIL" />
+		<map from="createUserId" to="CREATE_USER_ID" />
+		<map from="createDt" to="CREATE_DT" />
+		<map from="updateUserId" to="UPDATE_USER_ID" />
+		<map from="updateDt" to="UPDATE_DT" />
+		<map from="uniqueTransId" to="UNIQUE_TRANS_ID" />
+		<map from="archiveDt" to="ARCHIVE_DT" />
+	</property>
+	<property
+		class="gov.state.nextgen.framework.business.entities.FwErrorLogDetailsCargo">
+		<map from="referenceId" to="REFERENCE_ID" />
+		<map from="exceptionNum" to="EXCEPTION_NUM" />
+		<map from="contextNum" to="CONTEXT_NUM" />
+		<map from="contextType" to="CONTEXT_TYPE" />
+		<map from="contextId" to="CONTEXT_ID" />
+		<map from="createUserId" to="CREATE_USER_ID" />
+		<map from="createDt" to="CREATE_DT" />
+		<map from="updateUserId" to="UPDATE_USER_ID" />
+		<map from="updateDt" to="UPDATE_DT" />
+		<map from="uniqueTransId" to="UNIQUE_TRANS_ID" />
+		<map from="archiveDt" to="ARCHIVE_DT" />
+	</property>
+	<property
+		class="gov.state.nextgen.framework.business.entities.cargo.custom.FwOpconBatchJobMasterCargo">
+		<map from="seqNum" to="SEQ_NUM" />
+		<map from="frequency" to="FREQUENCY" />
+		<map from="opconJobId" to="OPCON_JOB_ID" />
+		<map from="skdName" to="SKD_NAME" />
+		<map from="primaryMachineName" to="PRIMARY_MACHINE_NAME" />
+		<map from="alternateMachineName" to="ALTERNATE_MACHINE_NAME" />
+		<map from="startimage" to="STARTIMAGE" />
+		<map from="parameters" to="PARAMETERS" />
+		<map from="jobDependency" to="JOB_DEPENDENCY" />
+		<map from="latestStartTime" to="LATEST_START_TIME" />
+		<map from="maximumRunTime" to="MAXIMUM_RUN_TIME" />
+		<map from="skdid" to="SKDID" />
+		<map from="thresholdDependency" to="THRESHOLD_DEPENDENCY" />
+		<map from="createUserId" to="CREATE_USER_ID" />
+		<map from="createDt" to="CREATE_DT" />
+		<map from="updateUserId" to="UPDATE_USER_ID" />
+		<map from="updateDt" to="UPDATE_DT" />
+		<map from="uniqueTransId" to="UNIQUE_TRANS_ID" />
+		<map from="archiveDt" to="ARCHIVE_DT" />
+		<map from="estimatedRuntime" to="ESTIMATED_RUNTIME" />
+	</property>
+	<property
+		class="gov.state.nextgen.framework.business.entities.FwSessionManagerCargo">
+		<map from="userId" to="USER_ID" />
+		<map from="sesnId" to="SESN_ID" />
+		<map from="sesnStartDt" to="SESN_START_DT" />
+		<map from="sesnEndDt" to="SESN_END_DT" />
+		<map from="ipAddress" to="IP_ADDRESS" />
+		<map from="value" to="VALUE" />
+		<map from="empId" to="EMP_ID" />
+		<map from="archiveDt" to="ARCHIVE_DT" />
+		<map from="context" to="CONTEXT" />
+		<map from="envSw" to="ENV_SW" />
+	</property>
+	<property
+		class="gov.state.nextgen.framework.business.entities.FwUserCaseStatCargo">
+		<map from="typeCd" to="TYPE_CD" />
+		<map from="empId" to="EMP_ID" />
+		<map from="batchRunDt" to="BATCH_RUN_DT" />
+		<map from="locId" to="LOC_ID" />
+		<map from="typeCdValue" to="TYPE_CD_VALUE" />
+		<map from="createUserId" to="CREATE_USER_ID" />
+		<map from="createDt" to="CREATE_DT" />
+		<map from="updateUserId" to="UPDATE_USER_ID" />
+		<map from="updateDt" to="UPDATE_DT" />
+		<map from="uniqueTransId" to="UNIQUE_TRANS_ID" />
+		<map from="archiveDt" to="ARCHIVE_DT" />
+	</property>
+	<property
+		class="gov.state.nextgen.framework.business.entities.cargo.custom.FwUserFavoritesCargo">
+		<map from="userId" to="USER_ID" />
+		<map from="pageId" to="PAGE_ID" />
+		<map from="createUserId" to="CREATE_USER_ID" />
+		<map from="createDt" to="CREATE_DT" />
+		<map from="updateUserId" to="UPDATE_USER_ID" />
+		<map from="updateDt" to="UPDATE_DT" />
+		<map from="uniqueTransId" to="UNIQUE_TRANS_ID" />
+		<map from="archiveDt" to="ARCHIVE_DT" />
+	</property>
+	<property
+		class="gov.state.nextgen.framework.business.entities.cargo.custom.FwBatchContextCargo">
+		<map from="jobId" to="JOB_ID" />
+		<map from="fwKey" to="FW_KEY" />
+		<map from="createUserId" to="CREATE_USER_ID" />
+		<map from="updateUserId" to="UPDATE_USER_ID" />
+		<map from="createDt" to="CREATE_DT" />
+		<map from="updateDt" to="UPDATE_DT" />
+		<map from="uniqueTransId" to="UNIQUE_TRANS_ID" />
+		<map from="contextEffectiveDt" to="CONTEXT_EFFECTIVE_DT" />
+		<map from="contextExpirationDt" to="CONTEXT_EXPIRATION_DT" />
+		<map from="jobKeyValue" to="JOB_KEY_VALUE" />
+	</property>
+	<property
+		class="gov.state.nextgen.framework.business.entities.cargo.custom.FwBatchFileCargo">
+		<map from="jobId" to="JOB_ID" />
+		<map from="logicalFileName" to="LOGICAL_FILE_NAME" />
+		<map from="fileName" to="FILE_NAME" />
+		<map from="asOfDt" to="AS_OF_DT" />
+		<map from="asOfDtEffectiveDt" to="AS_OF_DT_EFFECTIVE_DT" />
+		<map from="asOfDtExpirationDt" to="AS_OF_DT_EXPIRATION_DT" />
+		<map from="ftpIndicator" to="FTP_INDICATOR" />
+		<map from="createUserId" to="CREATE_USER_ID" />
+		<map from="updateUserId" to="UPDATE_USER_ID" />
+		<map from="createDt" to="CREATE_DT" />
+		<map from="updateDt" to="UPDATE_DT" />
+		<map from="uniqueTransId" to="UNIQUE_TRANS_ID" />
+		<map from="changeCaseSw" to="CHANGE_CASE_SW" />
+		<map from="ftpBinarySw" to="FTP_BINARY_SW" />
+	</property>
+	<property
+		class="gov.state.nextgen.framework.business.entities.cargo.custom.FwBatchFtpCommandCargo">
+		<map from="fileName" to="FILE_NAME" />
+		<map from="commandSequence" to="COMMAND_SEQUENCE" />
+		<map from="command" to="COMMAND" />
+		<map from="targetFileName" to="TARGET_FILE_NAME" />
+		<map from="agencyId" to="AGENCY_ID" />
+	</property>
+	<property
+		class="gov.state.nextgen.framework.business.entities.cargo.custom.FwBatchFtpFileLookupCargo">
+		<map from="fileName" to="FILE_NAME" />
+		<map from="agencyId" to="AGENCY_ID" />
+		<map from="ownerFa" to="OWNER_FA" />
+		<map from="targetFileName" to="TARGET_FILE_NAME" />
+		<map from="fileType" to="FILE_TYPE" />
+		<map from="createUserId" to="CREATE_USER_ID" />
+		<map from="updateUserId" to="UPDATE_USER_ID" />
+		<map from="createDt" to="CREATE_DT" />
+		<map from="updateDt" to="UPDATE_DT" />
+		<map from="uniqueTransId" to="UNIQUE_TRANS_ID" />
+		<map from="jobId" to="JOB_ID" />
+		<map from="jobStream" to="JOB_STREAM" />
+		<map from="ftpIpAddress" to="FTP_IP_ADDRESS" />
+		<map from="ftpType" to="FTP_TYPE" />
+		<map from="flagFileName" to="FLAG_FILE_NAME" />
+		<map from="ftpUserName" to="FTP_USER_NAME" />
+		<map from="ftpPassword" to="FTP_PASSWORD" />
+		<map from="intTag" to="INT_TAG" />
+		<map from="ftpAccount" to="FTP_ACCOUNT" />
+		<map from="targetLocation" to="TARGET_LOCATION" />
+	</property>
+	<property
+		class="gov.state.nextgen.framework.business.entities.cargo.custom.FwBatchJobScheduleCargo">
+		<map from="eventId" to="EVENT_ID" />
+		<map from="jobStreamId" to="JOB_STREAM_ID" />
+		<map from="scheduleCommand" to="SCHEDULE_COMMAND" />
+		<map from="createUserId" to="CREATE_USER_ID" />
+		<map from="updateUserId" to="UPDATE_USER_ID" />
+		<map from="createDt" to="CREATE_DT" />
+		<map from="updateDt" to="UPDATE_DT" />
+		<map from="uniqueTransId" to="UNIQUE_TRANS_ID" />
+		<map from="jobId" to="JOB_ID" />
+		<map from="recurring" to="RECURRING" />
+		<map from="jobArguments" to="JOB_ARGUMENTS" />
+		<map from="eventType" to="EVENT_TYPE" />
+		<map from="jobSequenceNumber" to="JOB_SEQUENCE_NUMBER" />
+	</property>
+	<property
+		class="gov.state.nextgen.framework.business.entities.cargo.custom.FwBatchParameterControlCargo">
+		<map from="jobId" to="JOB_ID" />
+		<map from="parameters" to="PARAMETERS" />
+		<map from="createUserId" to="CREATE_USER_ID" />
+		<map from="updateUserId" to="UPDATE_USER_ID" />
+		<map from="createDt" to="CREATE_DT" />
+		<map from="updateDt" to="UPDATE_DT" />
+		<map from="uniqueTransId" to="UNIQUE_TRANS_ID" />
+		<map from="parmEffectiveDt" to="PARM_EFFECTIVE_DT" />
+		<map from="parmExpirationDt" to="PARM_EXPIRATION_DT" />
+		<map from="archiveDt" to="ARCHIVE_DT" />
+	</property>
+	<property
+		class="gov.state.nextgen.framework.business.entities.cargo.custom.FwBatchRunControlCargo">
+		<map from="jobId" to="JOB_ID" />
+		<map from="asOfDt" to="AS_OF_DT" />
+		<map from="startTimeDt" to="START_TIME_DT" />
+		<map from="endTimeDt" to="END_TIME_DT" />
+		<map from="statusCd" to="STATUS_CD" />
+		<map from="runNum" to="RUN_NUM" />
+		<map from="createUserId" to="CREATE_USER_ID" />
+		<map from="updateUserId" to="UPDATE_USER_ID" />
+		<map from="createDt" to="CREATE_DT" />
+		<map from="updateDt" to="UPDATE_DT" />
+		<map from="uniqueTransId" to="UNIQUE_TRANS_ID" />
+		<map from="overWriteFlag" to="OVER_WRITE_FLAG" />
+		<map from="archiveDt" to="ARCHIVE_DT" />
+		<map from="parallelRunId" to="PARALLEL_RUN_ID" />
+		<map from="restartFlag" to="RESTART_FLAG" />
+		<map from="parallelRunNum" to="PARALLEL_RUN_NUM" />
+		<map from="nodeId" to="NODE_ID" />
+	</property>
+	<property
+		class="gov.state.nextgen.framework.business.entities.cargo.custom.FwBatchSortControlCargo">
+		<map from="outputLogicalFileName" to="OUTPUT_LOGICAL_FILE_NAME" />
+		<map from="inputLogicalFileNames" to="INPUT_LOGICAL_FILE_NAMES" />
+		<map from="sortKeys" to="SORT_KEYS" />
+		<map from="sortOptions" to="SORT_OPTIONS" />
+		<map from="createUserId" to="CREATE_USER_ID" />
+		<map from="updateUserId" to="UPDATE_USER_ID" />
+		<map from="createDt" to="CREATE_DT" />
+		<map from="updateDt" to="UPDATE_DT" />
+		<map from="uniqueTransId" to="UNIQUE_TRANS_ID" />
+		<map from="archiveDt" to="ARCHIVE_DT" />
+		<map from="fileStatusCd" to="FILE_STATUS_CD" />
+	</property>
+	<property
+		class="gov.state.nextgen.framework.business.entities.FwDataElementListCargo">
+		<map from="deElementId" to="DE_ELEMENT_ID" />
+		<map from="deScreenElementName" to="DE_SCREEN_ELEMENT_NAME" />
+		<map from="deLabelText" to="DE_LABEL_TEXT" />
+		<map from="deDefaultValue" to="DE_DEFAULT_VALUE" />
+		<map from="langCd" to="LANG_CD" />
+		<map from="rdRefId" to="RD_REF_ID" />
+		<map from="deLastChanged" to="DE_LAST_CHANGED" />
+		<map from="deNotes" to="DE_NOTES" />
+		<map from="deAuthUser" to="DE_AUTH_USER" />
+		<map from="deMandatory" to="DE_MANDATORY" />
+		<map from="deWidth" to="DE_WIDTH" />
+		<map from="dePackage" to="DE_PACKAGE" />
+		<map from="archiveDt" to="ARCHIVE_DT" />
+	</property>
+	<property
+		class="gov.state.nextgen.framework.business.entities.cargo.custom.FwPageCargo">
+		<map from="pageId" to="PAGE_ID" />
+		<map from="pageTitle" to="PAGE_TITLE" />
+		<map from="pageLongTitle" to="PAGE_LONG_TITLE" />
+		<map from="url" to="URL" />
+		<map from="sesnEjbNm" to="SESN_EJB_NM" />
+		<map from="helpTxt" to="HELP_TXT" />
+		<map from="busFnId" to="BUS_FN_ID" />
+		<map from="parentPageId" to="PARENT_PAGE_ID" />
+		<map from="pageNumber" to="PAGE_NUMBER" />
+		<map from="pageRequiredSw" to="PAGE_REQUIRED_SW" />
+		<map from="pageLoopSw" to="PAGE_LOOP_SW" />
+		<map from="leftNavigationSw" to="LEFT_NAVIGATION_SW" />
+		<map from="createUserId" to="CREATE_USER_ID" />
+		<map from="updateUserId" to="UPDATE_USER_ID" />
+		<map from="createDt" to="CREATE_DT" />
+		<map from="updateDt" to="UPDATE_DT" />
+		<map from="uniqueTransId" to="UNIQUE_TRANS_ID" />
+		<map from="driverSw" to="DRIVER_SW" />
+		<map from="functionalAreaCd" to="FUNCTIONAL_AREA_CD" />
+		<map from="helpRequiredSw" to="HELP_REQUIRED_SW" />
+		<map from="questionSw" to="QUESTION_SW" />
+		<map from="summarySw" to="SUMMARY_SW" />
+		<map from="driverProcessCd" to="DRIVER_PROCESS_CD" />
+		<map from="helpCreateUserId" to="HELP_CREATE_USER_ID" />
+		<map from="helpUpdateUserId" to="HELP_UPDATE_USER_ID" />
+		<map from="helpCreateDt" to="HELP_CREATE_DT" />
+		<map from="helpUpdateDt" to="HELP_UPDATE_DT" />
+		<map from="actualUrl" to="ACTUAL_URL" />
+		<map from="archiveDt" to="ARCHIVE_DT" />
+		<map from="laptopSw" to="LAPTOP_SW" />
+		<map from="simulationSw" to="SIMULATION_SW" />
+		<map from="moduleSw" to="MODULE_SW" />
+		<map from="deprecatedSw" to="DEPRECATED_SW" />
+		<map from="caseLevelSecuritySw" to="CASE_LEVEL_SECURITY_SW" />
+	</property>
+	<property
+		class="gov.state.nextgen.framework.business.entities.FwPageActionsCargo">
+		<map from="pageId" to="PAGE_ID" />
+		<map from="methodId" to="METHOD_ID" />
+		<map from="methodName" to="METHOD_NAME" />
+		<map from="methodSignature" to="METHOD_SIGNATURE" />
+		<map from="archiveDt" to="ARCHIVE_DT" />
+		<map from="slaType" to="SLA_TYPE" />
+		<map from="transactionSw" to="TRANSACTION_SW" />
+	</property>
+	<property
+		class="gov.state.nextgen.framework.business.entities.FwPageDataElementListCargo">
+		<map from="pageId" to="PAGE_ID" />
+		<map from="deElementId" to="DE_ELEMENT_ID" />
+		<map from="fieldHelp" to="FIELD_HELP" />
+		<map from="archiveDt" to="ARCHIVE_DT" />
+		<map from="orphanSw" to="ORPHAN_SW" />
+		<map from="helpRequiredSw" to="HELP_REQUIRED_SW" />
+	</property>
+	<property
+		class="gov.state.nextgen.framework.business.entities.FwParametersCargo">
+		<map from="parmId" to="PARM_ID" />
+		<map from="parmName" to="PARM_NAME" />
+		<map from="parmValue" to="PARM_VALUE" />
+		<map from="createUserId" to="CREATE_USER_ID" />
+		<map from="updateUserId" to="UPDATE_USER_ID" />
+		<map from="createDt" to="CREATE_DT" />
+		<map from="updateDt" to="UPDATE_DT" />
+		<map from="uniqueTransId" to="UNIQUE_TRANS_ID" />
+		<map from="archiveDt" to="ARCHIVE_DT" />
+	</property>
+	<property
+		class="gov.state.nextgen.framework.business.entities.FwReleaseNotesCargo">
+		<map from="releaseNum" to="RELEASE_NUM" />
+		<map from="startDt" to="START_DT" />
+		<map from="expiryDt" to="EXPIRY_DT" />
+		<map from="notes" to="NOTES" />
+		<map from="updateUserId" to="UPDATE_USER_ID" />
+		<map from="updateDt" to="UPDATE_DT" />
+		<map from="historySeq" to="HISTORY_SEQ" />
+		<map from="createUserId" to="CREATE_USER_ID" />
+		<map from="createDt" to="CREATE_DT" />
+		<map from="uniqueTransId" to="UNIQUE_TRANS_ID" />
+		<map from="archiveDt" to="ARCHIVE_DT" />
+	</property>
+	<property class="gov.state.nextgen.framework.business.entities.cargo.custom.MuEdbcTriggerBatchCargo">
+		<map from="triggerSeqNum" to="TRIGGER_SEQ_NUM"/> 
+		<map from="asOfDt" to="AS_OF_DT"/> 
+		<map from="parallelRunId" to="PARALLEL_RUN_ID"/> 
+		<map from="executeSw" to="EXECUTE_SW"/> 
+		<map from="processedSw" to="PROCESSED_SW"/> 
+		<map from="createDt" to="CREATE_DT"/> 
+		<map from="createUserId" to="CREATE_USER_ID"/> 
+		<map from="updateDt" to="UPDATE_DT"/> 
+		<map from="updateUserId" to="UPDATE_USER_ID"/> 
+		<map from="uniqueTransId" to="UNIQUE_TRANS_ID"/> 
+		<map from="archiveDt" to="ARCHIVE_DT"/> 
+	</property>
+
+</mappers>

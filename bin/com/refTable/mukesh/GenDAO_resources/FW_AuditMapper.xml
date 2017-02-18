@@ -1,0 +1,18 @@
+<mappers>
+	<property
+		class="gov.state.nextgen.framework.business.entities.FwReleaseNotesCargo">
+		<map from="releaseNum" to="RELEASE_NUM" />
+		<map from="startDt" to="START_DT" />
+		<map from="expiryDt" to="EXPIRY_DT" />
+		<map from="notes" to="NOTES" />
+		<map from="updateUserId" to="UPDATE_USER_ID" />
+		<map from="updateDt" to="UPDATE_DT" />
+		<map from="historySeq" to="HISTORY_SEQ" />
+		<map from="createUserId" to="CREATE_USER_ID" />
+		<map from="createDt" to="CREATE_DT" />
+		<map from="uniqueTransId" to="UNIQUE_TRANS_ID" />
+		<map from="archiveDt" to="ARCHIVE_DT" />
+		<map from="auditUserId" to="AUDIT_USER_ID" />
+		<map from="auditDt" to="AUDIT_DT" />
+	</property>
+</mappers>

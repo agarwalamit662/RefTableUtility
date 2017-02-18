@@ -1,0 +1,1160 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<mappers>
+	<property class="gov.state.nextgen.common.cargo.custom.DcRealPropertyCargo">
+		<map from="indvId" to="INDV_ID" />
+		<map from="sequenceNum" to="SEQUENCE_NUM" />
+		<map from="effBeginDt" to="EFF_BEGIN_DT" />
+		<map from="effEndDt" to="EFF_END_DT" />
+		<map from="archiveDt" to="ARCHIVE_DT" />
+	</property>
+	<property class="gov.state.nextgen.common.cargo.custom.DcAddPgmDtlCargo">
+		<map from="effBeginDt" to="EFF_BEGIN_DT" />
+		<map from="effEndDt" to="EFF_END_DT" />
+		<map from="indvId" to="INDV_ID" />
+		<map from="addPgmSeqNum" to="ADD_PGM_SEQ_NUM" />
+		<map from="archiveDt" to="ARCHIVE_DT" />
+	</property>
+	<property class="gov.state.nextgen.common.cargo.custom.CiIndvEmpCargo">
+		<map from="memberId" to="MEMBER_ID" />
+		<map from="effBeginDt" to="EFF_BEGIN_DT" />
+		<map from="effEndDt" to="EFF_END_DT" />
+		<map from="archiveDt" to="ARCHIVE_DT" />
+		<map from="sequenceNum" to="SEQUENCE_NUM" />
+	</property>
+
+	<property class="gov.state.nextgen.common.cargo.custom.DcTaxDtlCargo">
+		<map from="effBeginDt" to="EFF_BEGIN_DT" />
+		<map from="effEndDt" to="EFF_END_DT" />
+		<map from="indvId" to="INDV_ID" />
+		<map from="taxDtlSeqNum" to="TAX_DTL_SEQ_NUM" />
+		<map from="archiveDt" to="ARCHIVE_DT" />
+	</property>
+
+	<property class="gov.state.nextgen.common.cargo.custom.CiAppEmpCargo">
+		<map from="memberId" to="MEMBER_ID" />
+		<map from="effBeginDt" to="EFF_BEGIN_DT" />
+		<map from="effEndDt" to="EFF_END_DT" />
+		<map from="archiveDt" to="ARCHIVE_DT" />
+		<map from="sequenceNum" to="SEQUENCE_NUM" />
+	</property>
+	<property
+		class="gov.state.nextgen.common.cargo.custom.CiAppRelationshipCargo">
+		<map from="memberId" to="MEMBER_ID" />
+		<map from="effBeginDt" to="EFF_BEGIN_DT" />
+		<map from="refMemberId" to="REF_MEMBER_ID" />
+		<map from="effEndDt" to="EFF_END_DT" />
+		<map from="archiveDt" to="ARCHIVE_DT" />
+		<map from="sequenceNum" to="SEQUENCE_NUM" />
+	</property>
+	<property class="gov.state.nextgen.common.cargo.custom.CiIndvInsuranceCargo">
+		<map from="memberId" to="MEMBER_ID" />
+		<map from="effBeginDt" to="EFF_BEGIN_DT" />
+		<map from="effEndDt" to="EFF_END_DT" />
+		<map from="archiveDt" to="ARCHIVE_DT" />
+		<map from="sequenceNum" to="SEQUENCE_NUM" />
+	</property>
+	<property class="gov.state.nextgen.common.cargo.custom.CiAppAddrCargo">
+		<map from="memberId" to="MEMBER_ID" />
+		<map from="effBeginDt" to="EFF_BEGIN_DT" />
+		<map from="effEndDt" to="EFF_END_DT" />
+		<map from="archiveDt" to="ARCHIVE_DT" />
+		<map from="sequenceNum" to="SEQUENCE_NUM" />
+	</property>
+	<property
+		class="gov.state.nextgen.common.cargo.custom.DcActivityScheduleCargo">
+		<map from="activityScheduleWeekCd" to="ACTIVITY_SCHEDULE_WEEK_CD" />
+		<map from="activityScheduleWeekDay" to="ACTIVITY_SCHEDULE_WEEK_DAY" />
+		<map from="caseNum" to="CASE_NUM" />
+		<map from="effBeginDt" to="EFF_BEGIN_DT" />
+		<map from="effEndDt" to="EFF_END_DT" />
+		<map from="indvId" to="INDV_ID" />
+		<map from="archiveDt" to="ARCHIVE_DT" />
+
+
+
+	</property>
+	<!-- start Added by anurag sanction details screen -->
+
+	<property
+		class="gov.state.nextgen.common.cargo.custom.DcIndvNonCooperationCargo">
+		<map from="effBeginDt" to="EFF_BEGIN_DT" />
+		<map from="effEndDt" to="EFF_END_DT" />
+		<map from="indvId" to="INDV_ID" />
+		<map from="nonCoopSeqNum" to="SEQUENCE_NUM" />
+		<map from="archiveDt" to="ARCHIVE_DT" />
+	</property>
+	<!-- end Added by anurag sanction details screen -->
+
+	<property
+		class="gov.state.nextgen.common.cargo.custom.DcActivityShiftScheduleCargo">
+		<map from="activityScheduleWeekCd" to="ACTIVITY_SCHEDULE_WEEK_CD" />
+		<map from="activityScheduleWeekDay" to="ACTIVITY_SCHEDULE_WEEK_DAY" />
+		<map from="caseNum" to="CASE_NUM" />
+		<map from="indvId" to="INDV_ID" />
+		<map from="shiftNum" to="SHIFT_NUM" />
+		<map from="effBeginDt" to="EFF_BEGIN_DT" />
+		<map from="effEndDt" to="EFF_END_DT" />
+		<map from="archiveDt" to="ARCHIVE_DT" />
+	</property>
+	<property
+		class="gov.state.nextgen.common.cargo.custom.DcCcNeedsScheduleCargo">
+		<map from="caseNum" to="CASE_NUM" />
+		<map from="ccNeedsScheduleWeekCd" to="CC_NEEDS_SCHEDULE_WEEK_CD" />
+		<map from="ccNeedsScheduleWeekDay" to="CC_NEEDS_SCHEDULE_WEEK_DAY" />
+		<map from="effEndDt" to="EFF_END_DT" />
+		<map from="indvId" to="INDV_ID" />
+		<map from="effBeginDt" to="EFF_BEGIN_DT" />
+		<map from="archiveDt" to="ARCHIVE_DT" />
+	</property>
+	<property
+		class="gov.state.nextgen.common.cargo.custom.AlIndvTanfTlDetailsCargo">
+		<map from="indvId" to="INDV_ID" />
+		<map from="benefitMonth" to="BENEFIT_MONTH" />
+		<map from="timeLimitTypeCd" to="TIME_LIMIT_TYPE_CD" />
+		<map from="effBeginDt" to="EFF_BEGIN_DT" />
+		<map from="effEndDt" to="EFF_END_DT" />
+		<map from="archiveDt" to="ARCHIVE_DT" />
+	</property>
+	<property
+		class="gov.state.nextgen.common.cargo.custom.AlIndvTanfTlSummaryCargo">
+		<map from="indvId" to="INDV_ID" />
+		<map from="timeLimitTypeCd" to="TIME_LIMIT_TYPE_CD" />
+		<map from="effBeginDt" to="EFF_BEGIN_DT" />
+		<map from="effEndDt" to="EFF_END_DT" />
+		<map from="archiveDt" to="ARCHIVE_DT" />
+	</property>
+	<property class="gov.state.nextgen.common.cargo.custom.BvClaimCargo">
+		<map from="claimId" to="CLAIM_ID" />
+		<map from="statusCd" to="STATUS_CD" />
+		<map from="effBeginDt" to="EFF_BEGIN_DT" />
+		<map from="effEndDt" to="EFF_END_DT" />
+		<map from="archiveDt" to="ARCHIVE_DT" />
+	</property>
+
+	<property
+		class="gov.state.nextgen.common.cargo.custom.CoMassRecipientCriteriaCargo">
+		<map from="criteriaSeqNum" to="CRITERIA_SEQ_NUM" />
+		<map from="effBeginDt" to="EFF_BEGIN_DT" />
+		<map from="effEndDt" to="EFF_END_DT" />
+		<map from="archiveDt" to="ARCHIVE_DT" />
+	</property>
+	<property class="gov.state.nextgen.common.cargo.custom.CoMasterCargo">
+		<map from="docId" to="DOC_ID" />
+		<map from="effBeginDt" to="EFF_BEGIN_DT" />
+		<map from="effEndDt" to="EFF_END_DT" />
+		<map from="archiveDt" to="ARCHIVE_DT" />
+	</property>
+	<property class="gov.state.nextgen.common.cargo.custom.CoMasterTemplateCargo">
+		<map from="docId" to="DOC_ID" />
+		<map from="templateId" to="TEMPLATE_ID" />
+		<map from="effBeginDt" to="EFF_BEGIN_DT" />
+		<map from="effEndDt" to="EFF_END_DT" />
+		<map from="archiveDt" to="ARCHIVE_DT" />
+	</property>
+	<property class="gov.state.nextgen.common.cargo.custom.CoReasonTextCargo">
+		<map from="reasonId" to="REASON_ID" />
+		<map from="languageCd" to="LANGUAGE_CD" />
+		<map from="reasonSeq" to="REASON_SEQ" />
+		<map from="effBeginDt" to="EFF_BEGIN_DT" />
+		<map from="effEndDt" to="EFF_END_DT" />
+		<map from="archiveDt" to="ARCHIVE_DT" />
+	</property>
+	<property class="gov.state.nextgen.common.cargo.custom.CoTemplateCargo">
+		<map from="templateId" to="TEMPLATE_ID" />
+		<map from="effBeginDt" to="EFF_BEGIN_DT" />
+		<map from="effEndDt" to="EFF_END_DT" />
+		<map from="archiveDt" to="ARCHIVE_DT" />
+	</property>
+	<property class="gov.state.nextgen.common.cargo.custom.CoTextCargo">
+		<map from="docId" to="DOC_ID" />
+		<map from="languageCd" to="LANGUAGE_CD" />
+		<map from="textOrderNum" to="TEXT_ORDER_NUM" />
+		<map from="effBeginDt" to="EFF_BEGIN_DT" />
+		<map from="effEndDt" to="EFF_END_DT" />
+		<map from="archiveDt" to="ARCHIVE_DT" />
+	</property>
+	<property
+		class="gov.state.nextgen.common.cargo.custom.CrSampleCaseFindingsCargo">
+		<map from="sampleId" to="SAMPLE_ID" />
+		<map from="caseNum" to="CASE_NUM" />
+		<map from="edgNum" to="EDG_NUM" />
+		<map from="effBeginDt" to="EFF_BEGIN_DT" />
+		<map from="effEndDt" to="EFF_END_DT" />
+		<map from="archiveDt" to="ARCHIVE_DT" />
+		<map from="readTypeCd" to="READ_TYPE_CD" />
+	</property>
+
+
+	<property class="gov.state.nextgen.common.cargo.custom.DcEmploymentCargo">
+		<map from="indvId" to="INDV_ID" />
+		<map from="empSeqNum" to="EMP_SEQ_NUM" />
+		<map from="effBeginDt" to="EFF_BEGIN_DT" />
+		<map from="effEndDt" to="EFF_END_DT" />
+		<map from="archiveDt" to="ARCHIVE_DT" />
+	</property>
+	<property
+		class="gov.state.nextgen.common.cargo.custom.DcAuthorizingAgentCargo">
+		<map from="indvId" to="INDV_ID" />
+		<map from="typeOfAssistanceCd" to="TYPE_OF_ASSISTANCE_CD" />
+		<map from="authorizingAgentSeqNum" to="AUTHORIZING_AGENT_SEQ_NUM" />
+		<map from="effBeginDt" to="EFF_BEGIN_DT" />
+		<map from="effEndDt" to="EFF_END_DT" />
+		<map from="archiveDt" to="ARCHIVE_DT" />
+	</property>
+	<property
+		class="gov.state.nextgen.common.cargo.custom.DcAuthRepAssociationCargo">
+		<map from="authRepAssocSeqNum" to="AUTH_REP_ASSOC_SEQ_NUM" />
+		<map from="authrepSeqNum" to="AUTHREP_SEQ_NUM" />
+		<map from="indvId" to="INDV_ID" />
+		<map from="effBeginDt" to="EFF_BEGIN_DT" />
+		<map from="effEndDt" to="EFF_END_DT" />
+		<map from="archiveDt" to="ARCHIVE_DT" />
+		<map from="caseNum" to="CASE_NUM" />
+	</property>
+	<property class="gov.state.nextgen.common.cargo.custom.DcAuthRepCargo">
+		<map from="caseNum" to="CASE_NUM" />
+		<map from="authrepSeqNum" to="AUTHREP_SEQ_NUM" />
+		<map from="effBeginDt" to="EFF_BEGIN_DT" />
+		<map from="effEndDt" to="EFF_END_DT" />
+		<map from="archiveDt" to="ARCHIVE_DT" />
+		<map from="caseAddrSeqNum" to="CASE_ADDR_SEQ_NUM" />
+	</property>
+	<property
+		class="gov.state.nextgen.common.cargo.custom.DcBurialResourcesCargo">
+		<map from="indvId" to="INDV_ID" />
+		<map from="sequenceNum" to="SEQUENCE_NUM" />
+		<map from="effBeginDt" to="EFF_BEGIN_DT" />
+		<map from="effEndDt" to="EFF_END_DT" />
+		<map from="archiveDt" to="ARCHIVE_DT" />
+	</property>
+	<property
+		class="gov.state.nextgen.common.cargo.custom.DcBurialSpaceItemsCargo">
+		<map from="indvId" to="INDV_ID" />
+		<map from="sequenceNum" to="SEQUENCE_NUM" />
+		<map from="itemSeq" to="ITEM_SEQ" />
+		<map from="effBeginDt" to="EFF_BEGIN_DT" />
+		<map from="effEndDt" to="EFF_END_DT" />
+		<map from="archiveDt" to="ARCHIVE_DT" />
+	</property>
+	<property class="gov.state.nextgen.common.cargo.custom.DcCaretakerCargo">
+		<map from="indvId" to="INDV_ID" />
+		<map from="effBeginDt" to="EFF_BEGIN_DT" />
+		<map from="effEndDt" to="EFF_END_DT" />
+		<map from="archiveDt" to="ARCHIVE_DT" />
+	</property>
+	<property class="gov.state.nextgen.common.cargo.custom.DcCaseAddressesCargo">
+		<map from="caseNum" to="CASE_NUM" />
+		<map from="caseAddrSeqNum" to="CASE_ADDR_SEQ_NUM" />
+		<map from="effBeginDt" to="EFF_BEGIN_DT" />
+		<map from="effEndDt" to="EFF_END_DT" />
+		<map from="archiveDt" to="ARCHIVE_DT" />
+	</property>
+	<property class="gov.state.nextgen.common.cargo.custom.DcCaseIndividualCargo">
+		<map from="indvId" to="INDV_ID" />
+		<map from="caseNum" to="CASE_NUM" />
+		<map from="effBeginDt" to="EFF_BEGIN_DT" />
+		<map from="effEndDt" to="EFF_END_DT" />
+		<map from="archiveDt" to="ARCHIVE_DT" />
+	</property>
+	<property class="gov.state.nextgen.common.cargo.custom.DcCaseProgramCargo">
+		<map from="caseNum" to="CASE_NUM" />
+		<map from="progCd" to="PROG_CD" />
+		<map from="priorMedicaidCd" to="PRIOR_MEDICAID_CD" />
+		<map from="priorMaSeqNum" to="PRIOR_MA_SEQ_NUM" />
+		<map from="effBeginDt" to="EFF_BEGIN_DT" />
+		<map from="effEndDt" to="EFF_END_DT" />
+		<map from="archiveDt" to="ARCHIVE_DT" />
+	</property>
+	<property
+		class="gov.state.nextgen.common.cargo.custom.DcCaseProgramIndvCargo">
+		<map from="caseNum" to="CASE_NUM" />
+		<map from="indvId" to="INDV_ID" />
+		<map from="progCd" to="PROG_CD" />
+		<map from="priorMedicaidCd" to="PRIOR_MEDICAID_CD" />
+		<map from="priorMaSeqNum" to="PRIOR_MA_SEQ_NUM" />
+		<map from="effBeginDt" to="EFF_BEGIN_DT" />
+		<map from="effEndDt" to="EFF_END_DT" />
+		<map from="archiveDt" to="ARCHIVE_DT" />
+	</property>
+	<property
+		class="gov.state.nextgen.common.cargo.custom.DcChildSuppNonCoopCargo">
+		<map from="absentParentSeqNum" to="ABSENT_PARENT_SEQ_NUM" />
+		<map from="custodialParentIndvId" to="CUSTODIAL_PARENT_INDV_ID" />
+		<map from="nonCoopSeqNum" to="NON_COOP_SEQ_NUM" />
+		<map from="effBeginDt" to="EFF_BEGIN_DT" />
+		<map from="archiveDt" to="ARCHIVE_DT" />
+	</property>
+	<property class="gov.state.nextgen.common.cargo.custom.DcDemographicsCargo">
+		<map from="indvId" to="INDV_ID" />
+		<map from="effBeginDt" to="EFF_BEGIN_DT" />
+		<map from="effEndDt" to="EFF_END_DT" />
+		<map from="archiveDt" to="ARCHIVE_DT" />
+	</property>
+	<property
+		class="gov.state.nextgen.common.cargo.custom.DcDependCareDeductionsCargo">
+		<map from="indvId" to="INDV_ID" />
+		<map from="sequenceNum" to="SEQUENCE_NUM" />
+		<map from="effBeginDt" to="EFF_BEGIN_DT" />
+		<map from="effEndDt" to="EFF_END_DT" />
+		<map from="archiveDt" to="ARCHIVE_DT" />
+	</property>
+	<property class="gov.state.nextgen.common.cargo.custom.DcDisabilityCargo">
+		<map from="indvId" to="INDV_ID" />
+		<map from="typeCd" to="TYPE_CD" />
+		<map from="effBeginDt" to="EFF_BEGIN_DT" />
+		<map from="effEndDt" to="EFF_END_DT" />
+		<map from="archiveDt" to="ARCHIVE_DT" />
+		<map from="disabSeqNum" to="DISAB_SEQ_NUM" />
+	</property>
+
+	<property class="gov.state.nextgen.common.cargo.custom.DcCaseCardholderCargo">
+		<map from="caseNum" to="CASE_NUM" />
+		<map from="effBeginDt" to="EFF_BEGIN_DT" />
+		<map from="effEndDt" to="EFF_END_DT" />
+		<map from="archiveDt" to="ARCHIVE_DT" />
+	</property>
+	<property
+		class="gov.state.nextgen.common.cargo.custom.DcDisableDeterminationCargo">
+		<map from="indvId" to="INDV_ID" />
+		<map from="disabilityDetSeq" to="DISABILITY_DET_SEQ" />
+		<map from="effBeginDt" to="EFF_BEGIN_DT" />
+		<map from="effEndDt" to="EFF_END_DT" />
+		<map from="archiveDt" to="ARCHIVE_DT" />
+	</property>
+	<property
+		class="gov.state.nextgen.common.cargo.custom.DcDomesticViolenceCargo">
+		<map from="indvId" to="INDV_ID" />
+		<map from="effBeginDt" to="EFF_BEGIN_DT" />
+		<map from="effEndDt" to="EFF_END_DT" />
+		<map from="archiveDt" to="ARCHIVE_DT" />
+	</property>
+	<property class="gov.state.nextgen.common.cargo.custom.DcEducationCargo">
+		<map from="indvId" to="INDV_ID" />
+		<map from="effBeginDt" to="EFF_BEGIN_DT" />
+		<map from="effEndDt" to="EFF_END_DT" />
+		<map from="archiveDt" to="ARCHIVE_DT" />
+	</property>
+	<property
+		class="gov.state.nextgen.common.cargo.custom.DcIndividualAlienCargo">
+		<map from="indvId" to="INDV_ID" />
+		<map from="effBeginDt" to="EFF_BEGIN_DT" />
+		<map from="effEndDt" to="EFF_END_DT" />
+		<map from="archiveDt" to="ARCHIVE_DT" />
+	</property>
+	<property class="gov.state.nextgen.common.cargo.custom.DcIndvAbawdCargo">
+		<map from="indvId" to="INDV_ID" />
+		<map from="effBeginDt" to="EFF_BEGIN_DT" />
+		<map from="effEndDt" to="EFF_END_DT" />
+		<map from="archiveDt" to="ARCHIVE_DT" />
+		<map from="abawdSeqNum" to="ABAWD_SEQ_NUM" />
+	</property>
+	<property
+		class="gov.state.nextgen.common.cargo.custom.DcIndvAlienSponsorCargo">
+		<map from="indvId" to="INDV_ID" />
+		<map from="effBeginDt" to="EFF_BEGIN_DT" />
+		<map from="effEndDt" to="EFF_END_DT" />
+		<map from="archiveDt" to="ARCHIVE_DT" />
+	</property>
+	<property
+		class="gov.state.nextgen.common.cargo.custom.DcIndvEmpServExemptionCargo">
+		<map from="indvId" to="INDV_ID" />
+		<map from="effBeginDt" to="EFF_BEGIN_DT" />
+		<map from="effEndDt" to="EFF_END_DT" />
+		<map from="archiveDt" to="ARCHIVE_DT" />
+	</property>
+	<property class="gov.state.nextgen.common.cargo.custom.DcIndvHhStatusCargo">
+		<map from="indvId" to="INDV_ID" />
+		<map from="caseNum" to="CASE_NUM" />
+		<map from="effBeginDt" to="EFF_BEGIN_DT" />
+		<map from="effEndDt" to="EFF_END_DT" />
+		<map from="archiveDt" to="ARCHIVE_DT" />
+	</property>
+	<property
+		class="gov.state.nextgen.common.cargo.custom.DcIndvLivingArngmntsCargo">
+		<map from="indvId" to="INDV_ID" />
+		<map from="effBeginDt" to="EFF_BEGIN_DT" />
+		<map from="effEndDt" to="EFF_END_DT" />
+		<map from="archiveDt" to="ARCHIVE_DT" />
+	</property>
+	<property class="gov.state.nextgen.common.cargo.custom.DcIndvMiscInfoCargo">
+		<map from="indvId" to="INDV_ID" />
+		<map from="typeCd" to="TYPE_CD" />
+		<map from="effBeginDt" to="EFF_BEGIN_DT" />
+		<map from="effEndDt" to="EFF_END_DT" />
+		<map from="archiveDt" to="ARCHIVE_DT" />
+	</property>
+	<property
+		class="gov.state.nextgen.common.cargo.custom.DcIndvTanfTierLevelCargo">
+		<map from="indvId" to="INDV_ID" />
+		<map from="effBeginDt" to="EFF_BEGIN_DT" />
+		<map from="effEndDt" to="EFF_END_DT" />
+		<map from="archiveDt" to="ARCHIVE_DT" />
+	</property>
+	<property class="gov.state.nextgen.common.cargo.custom.DcJointOwnershipCargo">
+		<map from="indvId" to="INDV_ID" />
+		<map from="sequenceNum" to="SEQUENCE_NUM" />
+		<map from="jointOwnerSeqNum" to="JOINT_OWNER_SEQ_NUM" />
+		<map from="effBeginDt" to="EFF_BEGIN_DT" />
+		<map from="effEndDt" to="EFF_END_DT" />
+		<map from="archiveDt" to="ARCHIVE_DT" />
+	</property>
+	<property class="gov.state.nextgen.common.cargo.custom.DcLifeInsuranceCargo">
+		<map from="indvId" to="INDV_ID" />
+		<map from="sequenceNum" to="SEQUENCE_NUM" />
+		<map from="effBeginDt" to="EFF_BEGIN_DT" />
+		<map from="effEndDt" to="EFF_END_DT" />
+		<map from="archiveDt" to="ARCHIVE_DT" />
+	</property>
+	<property
+		class="gov.state.nextgen.common.cargo.custom.DcLiquidResourcesCargo">
+		<map from="indvId" to="INDV_ID" />
+		<map from="sequenceNum" to="SEQUENCE_NUM" />
+		<map from="effBeginDt" to="EFF_BEGIN_DT" />
+		<map from="effEndDt" to="EFF_END_DT" />
+		<map from="archiveDt" to="ARCHIVE_DT" />
+	</property>
+	<property class="gov.state.nextgen.common.cargo.custom.DcLivestockCargo">
+		<map from="indvId" to="INDV_ID" />
+		<map from="sequenceNum" to="SEQUENCE_NUM" />
+		<map from="effBeginDt" to="EFF_BEGIN_DT" />
+		<map from="effEndDt" to="EFF_END_DT" />
+		<map from="archiveDt" to="ARCHIVE_DT" />
+	</property>
+	<property
+		class="gov.state.nextgen.common.cargo.custom.DcLumpSumResourcesCargo">
+		<map from="indvId" to="INDV_ID" />
+		<map from="sequenceNum" to="SEQUENCE_NUM" />
+		<map from="effBeginDt" to="EFF_BEGIN_DT" />
+		<map from="effEndDt" to="EFF_END_DT" />
+		<map from="archiveDt" to="ARCHIVE_DT" />
+	</property>
+	<property
+		class="gov.state.nextgen.common.cargo.custom.DcMedicalApprovalCargo">
+		<map from="indvId" to="INDV_ID" />
+		<map from="medApprovalSeq" to="MED_APPROVAL_SEQ" />
+		<map from="effBeginDt" to="EFF_BEGIN_DT" />
+		<map from="effEndDt" to="EFF_END_DT" />
+		<map from="archiveDt" to="ARCHIVE_DT" />
+	</property>
+	<property
+		class="gov.state.nextgen.common.cargo.custom.DcMedicalDeductionsCargo">
+		<map from="indvId" to="INDV_ID" />
+		<map from="sequenceNum" to="SEQUENCE_NUM" />
+		<map from="effBeginDt" to="EFF_BEGIN_DT" />
+		<map from="effEndDt" to="EFF_END_DT" />
+		<map from="archiveDt" to="ARCHIVE_DT" />
+	</property>
+	<property
+		class="gov.state.nextgen.common.cargo.custom.DcMedicalDiagnosisCodeCargo">
+		<map from="indvId" to="INDV_ID" />
+		<map from="diagnosisSeqNum" to="DIAGNOSIS_SEQ_NUM" />
+		<map from="effBeginDt" to="EFF_BEGIN_DT" />
+		<map from="effEndDt" to="EFF_END_DT" />
+		<map from="archiveDt" to="ARCHIVE_DT" />
+	</property>
+	<property class="gov.state.nextgen.common.cargo.custom.DcMedicareClaimCargo">
+		<map from="indvId" to="INDV_ID" />
+		<map from="medicareClaimId" to="MEDICARE_CLAIM_ID" />
+		<map from="effBeginDt" to="EFF_BEGIN_DT" />
+		<map from="effEndDt" to="EFF_END_DT" />
+		<map from="archiveDt" to="ARCHIVE_DT" />
+	</property>
+	<property class="gov.state.nextgen.common.cargo.custom.DcMineralRightsCargo">
+		<map from="indvId" to="INDV_ID" />
+		<map from="sequenceNum" to="SEQUENCE_NUM" />
+		<map from="effBeginDt" to="EFF_BEGIN_DT" />
+		<map from="effEndDt" to="EFF_END_DT" />
+		<map from="archiveDt" to="ARCHIVE_DT" />
+	</property>
+	<property class="gov.state.nextgen.common.cargo.custom.DcMiscExpenseCargo">
+		<map from="indvId" to="INDV_ID" />
+		<map from="miscExpenseSeqNum" to="MISC_EXPENSE_SEQ_NUM" />
+		<map from="effBeginDt" to="EFF_BEGIN_DT" />
+		<map from="effEndDt" to="EFF_END_DT" />
+		<map from="archiveDt" to="ARCHIVE_DT" />
+	</property>
+	<property class="gov.state.nextgen.common.cargo.custom.DcMiscPaymentsCargo">
+		<map from="indvId" to="INDV_ID" />
+		<map from="sequenceNum" to="SEQUENCE_NUM" />
+		<map from="effBeginDt" to="EFF_BEGIN_DT" />
+		<map from="effEndDt" to="EFF_END_DT" />
+		<map from="archiveDt" to="ARCHIVE_DT" />
+	</property>
+
+	<property
+		class="gov.state.nextgen.common.cargo.custom.DcOtherInStateBenefitsCargo">
+		<map from="indvId" to="INDV_ID" />
+		<map from="benefitTypeCd" to="BENEFIT_TYPE_CD" />
+		<map from="effBeginDt" to="EFF_BEGIN_DT" />
+		<map from="effEndDt" to="EFF_END_DT" />
+		<map from="archiveDt" to="ARCHIVE_DT" />
+	</property>
+	<property class="gov.state.nextgen.common.cargo.custom.DcPregnanciesCargo">
+		<map from="indvId" to="INDV_ID" />
+		<map from="effBeginDt" to="EFF_BEGIN_DT" />
+		<map from="effEndDt" to="EFF_END_DT" />
+		<map from="archiveDt" to="ARCHIVE_DT" />
+		<map from="pregSeqNum" to="PREG_SEQ_NUM" />
+	</property>
+	<property class="gov.state.nextgen.common.cargo.custom.DcRealPropertyCargo">
+		<map from="indvId" to="INDV_ID" />
+		<map from="sequenceNum" to="SEQUENCE_NUM" />
+		<map from="effBeginDt" to="EFF_BEGIN_DT" />
+		<map from="effEndDt" to="EFF_END_DT" />
+		<map from="archiveDt" to="ARCHIVE_DT" />
+	</property>
+	<property class="gov.state.nextgen.common.cargo.custom.DcRelationshipsCargo">
+		<map from="indvId" to="INDV_ID" />
+		<map from="refIndvId" to="REF_INDV_ID" />
+		<map from="effBeginDt" to="EFF_BEGIN_DT" />
+		<map from="effEndDt" to="EFF_END_DT" />
+		<map from="archiveDt" to="ARCHIVE_DT" />
+	</property>
+	<property class="gov.state.nextgen.common.cargo.custom.DcSelfEmpIncomeCargo">
+		<map from="indvId" to="INDV_ID" />
+		<map from="selfEmpSeqNum" to="SELF_EMP_SEQ_NUM" />
+		<map from="effBeginDt" to="EFF_BEGIN_DT" />
+		<map from="effEndDt" to="EFF_END_DT" />
+		<map from="archiveDt" to="ARCHIVE_DT" />
+	</property>
+	<property
+		class="gov.state.nextgen.common.cargo.custom.DcShelterDeductionsCargo">
+		<map from="indvId" to="INDV_ID" />
+		<map from="sequenceNum" to="SEQUENCE_NUM" />
+		<map from="effBeginDt" to="EFF_BEGIN_DT" />
+		<map from="effEndDt" to="EFF_END_DT" />
+		<map from="archiveDt" to="ARCHIVE_DT" />
+	</property>
+
+	<property
+		class="gov.state.nextgen.common.cargo.custom.DcStandardAllowanceCargo">
+		<map from="caseNum" to="CASE_NUM" />
+		<map from="effBeginDt" to="EFF_BEGIN_DT" />
+		<map from="effEndDt" to="EFF_END_DT" />
+		<map from="archiveDt" to="ARCHIVE_DT" />
+	</property>
+	<property
+		class="gov.state.nextgen.common.cargo.custom.DcSupportDeductionsCargo">
+		<map from="indvId" to="INDV_ID" />
+		<map from="sequenceNum" to="SEQUENCE_NUM" />
+		<map from="effBeginDt" to="EFF_BEGIN_DT" />
+		<map from="effEndDt" to="EFF_END_DT" />
+		<map from="archiveDt" to="ARCHIVE_DT" />
+	</property>
+	<property
+		class="gov.state.nextgen.common.cargo.custom.DcSupportMaintenanceCargo">
+		<map from="indvId" to="INDV_ID" />
+		<map from="supportSeqNum" to="SUPPORT_SEQ_NUM" />
+		<map from="effBeginDt" to="EFF_BEGIN_DT" />
+		<map from="effEndDt" to="EFF_END_DT" />
+		<map from="archiveDt" to="ARCHIVE_DT" />
+	</property>
+	<property
+		class="gov.state.nextgen.common.cargo.custom.DcTanfTlExemptionCargo">
+		<map from="caseNum" to="CASE_NUM" />
+		<map from="effBeginDt" to="EFF_BEGIN_DT" />
+		<map from="effEndDt" to="EFF_END_DT" />
+		<map from="archiveDt" to="ARCHIVE_DT" />
+	</property>
+	<property
+		class="gov.state.nextgen.common.cargo.custom.DcTransferedResourcesCargo">
+		<map from="indvId" to="INDV_ID" />
+		<map from="sequenceNum" to="SEQUENCE_NUM" />
+		<map from="resourceCatagoryCd" to="RESOURCE_CATAGORY_CD" />
+		<map from="resourceSeqNum" to="RESOURCE_SEQ_NUM" />
+		<map from="effBeginDt" to="EFF_BEGIN_DT" />
+		<map from="effEndDt" to="EFF_END_DT" />
+		<map from="archiveDt" to="ARCHIVE_DT" />
+	</property>
+	<property class="gov.state.nextgen.common.cargo.custom.DcTrustCargo">
+		<map from="indvId" to="INDV_ID" />
+		<map from="sequenceNum" to="SEQUENCE_NUM" />
+		<map from="effBeginDt" to="EFF_BEGIN_DT" />
+		<map from="effEndDt" to="EFF_END_DT" />
+		<map from="archiveDt" to="ARCHIVE_DT" />
+	</property>
+	<property class="gov.state.nextgen.common.cargo.custom.DcUnearnedIncomeCargo">
+		<map from="indvId" to="INDV_ID" />
+		<map from="unearnedSeqNum" to="UNEARNED_SEQ_NUM" />
+		<map from="effBeginDt" to="EFF_BEGIN_DT" />
+		<map from="effEndDt" to="EFF_END_DT" />
+		<map from="archiveDt" to="ARCHIVE_DT" />
+		<map from="dependentIndvId" to="DEPENDENT_INDV_ID" />
+	</property>
+	<property
+		class="gov.state.nextgen.common.cargo.custom.DcUnusualPropertyValueCargo">
+		<map from="indvId" to="INDV_ID" />
+		<map from="sequenceNum" to="SEQUENCE_NUM" />
+		<map from="effBeginDt" to="EFF_BEGIN_DT" />
+		<map from="effEndDt" to="EFF_END_DT" />
+		<map from="archiveDt" to="ARCHIVE_DT" />
+	</property>
+	<property
+		class="gov.state.nextgen.common.cargo.custom.DcUtilityDeductionsCargo">
+		<map from="caseNum" to="CASE_NUM" />
+		<map from="sequenceNum" to="SEQUENCE_NUM" />
+		<map from="effBeginDt" to="EFF_BEGIN_DT" />
+		<map from="effEndDt" to="EFF_END_DT" />
+		<map from="archiveDt" to="ARCHIVE_DT" />
+	</property>
+	<property class="gov.state.nextgen.common.cargo.custom.DcVehiclesCargo">
+		<map from="indvId" to="INDV_ID" />
+		<map from="sequenceNum" to="SEQUENCE_NUM" />
+		<map from="effBeginDt" to="EFF_BEGIN_DT" />
+		<map from="effEndDt" to="EFF_END_DT" />
+		<map from="archiveDt" to="ARCHIVE_DT" />
+	</property>
+	<property
+		class="gov.state.nextgen.common.cargo.custom.DcWorkforceOrientationCargo">
+		<map from="indvId" to="INDV_ID" />
+		<map from="effBeginDt" to="EFF_BEGIN_DT" />
+		<map from="effEndDt" to="EFF_END_DT" />
+		<map from="archiveDt" to="ARCHIVE_DT" />
+		<map from="caseNum" to="CASE_NUM" />
+	</property>
+	<property
+		class="gov.state.nextgen.common.cargo.custom.EdCaseRecertDatesCargo">
+		<map from="caseNum" to="CASE_NUM" />
+		<map from="edgNum" to="EDG_NUM" />
+		<map from="effBeginDt" to="EFF_BEGIN_DT" />
+		<map from="effEndDt" to="EFF_END_DT" />
+		<map from="archiveDt" to="ARCHIVE_DT" />
+	</property>
+	<property class="gov.state.nextgen.common.cargo.custom.EdDcIndvCountersCargo">
+		<map from="indvId" to="INDV_ID" />
+		<map from="counterTypeCd" to="COUNTER_TYPE_CD" />
+		<map from="programCd" to="PROGRAM_CD" />
+		<map from="effBeginDt" to="EFF_BEGIN_DT" />
+		<map from="effEndDt" to="EFF_END_DT" />
+		<map from="archiveDt" to="ARCHIVE_DT" />
+	</property>
+	<property
+		class="gov.state.nextgen.common.cargo.custom.EdDcIndvDisqPenaltiesCargo">
+		<map from="indvId" to="INDV_ID" />
+		<map from="penDisInd" to="PEN_DIS_IND" />
+		<map from="penDisTypeCd" to="PEN_DIS_TYPE_CD" />
+		<map from="programCd" to="PROGRAM_CD" />
+		<map from="effBeginDt" to="EFF_BEGIN_DT" />
+		<map from="effEndDt" to="EFF_END_DT" />
+		<map from="archiveDt" to="ARCHIVE_DT" />
+		<map from="seqNum" to="SEQ_NUM" />
+		<map from="nonCoopSrcCd" to="NON_COOP_SRC_CD" />
+	</property>
+	<property
+		class="gov.state.nextgen.common.cargo.custom.EdVerificationChecklistCargo">
+		<map from="caseNum" to="CASE_NUM" />
+		<map from="edgNum" to="EDG_NUM" />
+		<map from="indvId" to="INDV_ID" />
+		<map from="vclTypeCd" to="VCL_TYPE_CD" />
+		<map from="vclDetailRef" to="VCL_DETAIL_REF" />
+		<map from="effBeginDt" to="EFF_BEGIN_DT" />
+		<map from="effEndDt" to="EFF_END_DT" />
+		<map from="archiveDt" to="ARCHIVE_DT" />
+	</property>
+	<property class="gov.state.nextgen.common.cargo.custom.HeAppealAddressCargo">
+		<map from="appealGroupId" to="APPEAL_GROUP_ID" />
+		<map from="addrSeqNum" to="ADDR_SEQ_NUM" />
+		<map from="effBeginDt" to="EFF_BEGIN_DT" />
+		<map from="effEndDt" to="EFF_END_DT" />
+		<map from="archiveDt" to="ARCHIVE_DT" />
+	</property>
+	<property class="gov.state.nextgen.common.cargo.custom.InBendexCargo">
+		<map from="indvId" to="INDV_ID" />
+		<map from="claimNum" to="CLAIM_NUM" />
+		<map from="effBeginDt" to="EFF_BEGIN_DT" />
+		<map from="effEndDt" to="EFF_END_DT" />
+		<map from="archiveDt" to="ARCHIVE_DT" />
+		<map from="bendexSeqNum" to="BENDEX_SEQ_NUM" />
+	</property>
+	<property class="gov.state.nextgen.common.cargo.custom.InNewBornCargo">
+		<map from="newBornTraceId" to="NEW_BORN_TRACE_ID" />
+		<map from="effBeginDt" to="EFF_BEGIN_DT" />
+		<map from="effEndDt" to="EFF_END_DT" />
+		<map from="archiveDt" to="ARCHIVE_DT" />
+	</property>
+	<property class="gov.state.nextgen.common.cargo.custom.InServicesStatusCargo">
+		<map from="indvId" to="INDV_ID" />
+		<map from="servicesProgramTypeCd" to="SERVICES_PROGRAM_TYPE_CD" />
+		<map from="effBeginDt" to="EFF_BEGIN_DT" />
+		<map from="effEndDt" to="EFF_END_DT" />
+		<map from="archiveDt" to="ARCHIVE_DT" />
+		<map from="serviceSeqNum" to="SERVICE_SEQ_NUM" />
+	</property>
+	<property class="gov.state.nextgen.common.cargo.custom.MoEmployeesCargo">
+		<map from="empId" to="EMP_ID" />
+		<map from="effBeginDt" to="EFF_BEGIN_DT" />
+		<map from="effEndDt" to="EFF_END_DT" />
+		<map from="archiveDt" to="ARCHIVE_DT" />
+	</property>
+	<property
+		class="gov.state.nextgen.common.cargo.custom.MoOfficeSsAppRoutingCargo">
+		<map from="officeNum" to="OFFICE_NUM" />
+		<map from="progCd" to="PROG_CD" />
+		<map from="effBeginDt" to="EFF_BEGIN_DT" />
+		<map from="effEndDt" to="EFF_END_DT" />
+		<map from="archiveDt" to="ARCHIVE_DT" />
+	</property>
+	<property class="gov.state.nextgen.common.cargo.custom.MoOfficesCargo">
+		<map from="officeNum" to="OFFICE_NUM" />
+		<map from="effBeginDt" to="EFF_BEGIN_DT" />
+		<map from="effEndDt" to="EFF_END_DT" />
+		<map from="archiveDt" to="ARCHIVE_DT" />
+	</property>
+	<property class="gov.state.nextgen.common.cargo.custom.MoUnitsCargo">
+		<map from="unitNum" to="UNIT_NUM" />
+		<map from="effBeginDt" to="EFF_BEGIN_DT" />
+		<map from="effEndDt" to="EFF_END_DT" />
+		<map from="archiveDt" to="ARCHIVE_DT" />
+	</property>
+	<property
+		class="gov.state.nextgen.common.cargo.custom.PmProviderAddressesCargo">
+		<map from="providerId" to="PROVIDER_ID" />
+		<map from="providerAddrSeqNum" to="PROVIDER_ADDR_SEQ_NUM" />
+		<map from="effBeginDt" to="EFF_BEGIN_DT" />
+		<map from="effEndDt" to="EFF_END_DT" />
+		<map from="archiveDt" to="ARCHIVE_DT" />
+	</property>
+	<property
+		class="gov.state.nextgen.common.cargo.custom.PmProviderCriminalMatchCargo">
+		<map from="provCrimMatchSeqNum" to="PROV_CRIM_MATCH_SEQ_NUM" />
+		<map from="effBeginDt" to="EFF_BEGIN_DT" />
+		<map from="effEndDt" to="EFF_END_DT" />
+		<map from="archiveDt" to="ARCHIVE_DT" />
+	</property>
+	<property
+		class="gov.state.nextgen.common.cargo.custom.PmProviderLicAddressCargo">
+		<map from="providerLicAddrSeqNum" to="PROVIDER_LIC_ADDR_SEQ_NUM" />
+		<map from="licenseeSeqNum" to="LICENSEE_SEQ_NUM" />
+		<map from="effBeginDt" to="EFF_BEGIN_DT" />
+		<map from="effEndDt" to="EFF_END_DT" />
+		<map from="archiveDt" to="ARCHIVE_DT" />
+	</property>
+	<property
+		class="gov.state.nextgen.common.cargo.custom.PmProviderLicenseeCargo">
+		<map from="licenseeSeqNum" to="LICENSEE_SEQ_NUM" />
+		<map from="effBeginDt" to="EFF_BEGIN_DT" />
+		<map from="effEndDt" to="EFF_END_DT" />
+		<map from="archiveDt" to="ARCHIVE_DT" />
+	</property>
+	<property
+		class="gov.state.nextgen.common.cargo.custom.PmProviderLicenseeOwnerCargo">
+		<map from="licenseeOwnerSeqNum" to="LICENSEE_OWNER_SEQ_NUM" />
+		<map from="licenseeSeqNum" to="LICENSEE_SEQ_NUM" />
+		<map from="effBeginDt" to="EFF_BEGIN_DT" />
+		<map from="effEndDt" to="EFF_END_DT" />
+		<map from="archiveDt" to="ARCHIVE_DT" />
+	</property>
+	<property class="gov.state.nextgen.common.cargo.custom.SeLocationsCargo">
+		<map from="locId" to="LOC_ID" />
+		<map from="effBeginDt" to="EFF_BEGIN_DT" />
+		<map from="effEndDt" to="EFF_END_DT" />
+		<map from="archiveDt" to="ARCHIVE_DT" />
+	</property>
+	<property
+		class="gov.state.nextgen.common.cargo.custom.SeUserAssignmentsCargo">
+		<map from="locId" to="LOC_ID" />
+		<map from="roleId" to="ROLE_ID" />
+		<map from="userId" to="USER_ID" />
+		<map from="effBeginDt" to="EFF_BEGIN_DT" />
+		<map from="effEndDt" to="EFF_END_DT" />
+		<map from="archiveDt" to="ARCHIVE_DT" />
+	</property>
+	<property class="gov.state.nextgen.common.cargo.custom.SeUserCargo">
+		<map from="userId" to="USER_ID" />
+		<map from="effBeginDt" to="EFF_BEGIN_DT" />
+		<map from="effEndDt" to="EFF_END_DT" />
+		<map from="archiveDt" to="ARCHIVE_DT" />
+	</property>
+	<property
+		class="gov.state.nextgen.common.cargo.custom.SeUserRepAssignmentsCargo">
+		<map from="locId" to="LOC_ID" />
+		<map from="userId" to="USER_ID" />
+		<map from="effBeginDt" to="EFF_BEGIN_DT" />
+		<map from="effEndDt" to="EFF_END_DT" />
+		<map from="archiveDt" to="ARCHIVE_DT" />
+	</property>
+	<property class="gov.state.nextgen.common.cargo.custom.DcAddressBookCargo">
+		<map from="companyId" to="COMPANY_ID" />
+		<map from="effBeginDt" to="EFF_BEGIN_DT" />
+		<map from="effEndDt" to="EFF_END_DT" />
+		<map from="archiveDt" to="ARCHIVE_DT" />
+	</property>
+
+
+	<property class="gov.state.nextgen.common.cargo.custom.DcImmunizationsCargo">
+		<map from="indvId" to="INDV_ID" />
+		<map from="effBeginDt" to="EFF_BEGIN_DT" />
+		<map from="effEndDt" to="EFF_END_DT" />
+		<map from="archiveDt" to="ARCHIVE_DT" />
+	</property>
+	<property class="gov.state.nextgen.common.cargo.custom.PmCopayDelinqcCargo">
+		<map from="enrlmntId" to="ENRLMNT_ID" />
+		<map from="archiveDt" to="ARCHIVE_DT" />
+		<map from="enrlmntCopaySeqNum" to="ENRLMNT_COPAY_SEQ_NUM" />
+		<map from="effBeginDt" to="EFF_BEGIN_DT" />
+		<map from="effEndDt" to="EFF_END_DT" />
+		<map from="enrlmntCopayDelinqcSeqNum" to="ENRLMNT_COPAY_DELINQC_SEQ_NUM" />
+	</property>
+	<property
+		class="gov.state.nextgen.common.cargo.custom.PmEnrlmntFndgProgCargo">
+		<map from="enrlmntId" to="ENRLMNT_ID" />
+		<map from="effBeginDt" to="EFF_BEGIN_DT" />
+		<map from="effEndDt" to="EFF_END_DT" />
+		<map from="archiveDt" to="ARCHIVE_DT" />
+		<map from="fndgProgCd" to="FNDG_PROG_CD" />
+	</property>
+	<property class="gov.state.nextgen.common.cargo.custom.PmEnrlmntStatusCargo">
+		<map from="enrlmntId" to="ENRLMNT_ID" />
+		<map from="effBeginDt" to="EFF_BEGIN_DT" />
+		<map from="effEndDt" to="EFF_END_DT" />
+		<map from="archiveDt" to="ARCHIVE_DT" />
+	</property>
+	<property class="gov.state.nextgen.common.cargo.custom.PmHouseholdReqsCargo">
+		<map from="reqId" to="REQ_ID" />
+		<map from="providerPersonSeqNum" to="PROVIDER_PERSON_SEQ_NUM" />
+		<map from="effBeginDt" to="EFF_BEGIN_DT" />
+		<map from="effEndDt" to="EFF_END_DT" />
+		<map from="archiveDt" to="ARCHIVE_DT" />
+		<map from="providerId" to="PROVIDER_ID" />
+	</property>
+	<property
+		class="gov.state.nextgen.common.cargo.custom.PmLegalEntityAddressesCargo">
+		<map from="legalEntityId" to="LEGAL_ENTITY_ID" />
+		<map from="archiveDt" to="ARCHIVE_DT" />
+		<map from="effBeginDt" to="EFF_BEGIN_DT" />
+		<map from="effEndDt" to="EFF_END_DT" />
+		<map from="addrTypeCd" to="ADDR_TYPE_CD" />
+		<map from="legalEntityAddrSeqNum" to="LEGAL_ENTITY_ADDR_SEQ_NUM" />
+	</property>
+	<property
+		class="gov.state.nextgen.common.cargo.custom.PmProviderCriminalMatchCargo">
+		<map from="provCrimMatchSeqNum" to="PROV_CRIM_MATCH_SEQ_NUM" />
+		<map from="effBeginDt" to="EFF_BEGIN_DT" />
+		<map from="effEndDt" to="EFF_END_DT" />
+		<map from="archiveDt" to="ARCHIVE_DT" />
+	</property>
+	<property
+		class="gov.state.nextgen.common.cargo.custom.PmProviderLicenseeCargo">
+		<map from="licenseeSeqNum" to="LICENSEE_SEQ_NUM" />
+		<map from="effBeginDt" to="EFF_BEGIN_DT" />
+		<map from="effEndDt" to="EFF_END_DT" />
+		<map from="archiveDt" to="ARCHIVE_DT" />
+	</property>
+	<property
+		class="gov.state.nextgen.common.cargo.custom.PmProviderLicenseeOwnerCargo">
+		<map from="licenseeOwnerSeqNum" to="LICENSEE_OWNER_SEQ_NUM" />
+		<map from="licenseeSeqNum" to="LICENSEE_SEQ_NUM" />
+		<map from="effBeginDt" to="EFF_BEGIN_DT" />
+		<map from="effEndDt" to="EFF_END_DT" />
+		<map from="archiveDt" to="ARCHIVE_DT" />
+	</property>
+	<property
+		class="gov.state.nextgen.common.cargo.custom.PmProviderLicAddressCargo">
+		<map from="providerLicAddrSeqNum" to="PROVIDER_LIC_ADDR_SEQ_NUM" />
+		<map from="licenseeSeqNum" to="LICENSEE_SEQ_NUM" />
+		<map from="effBeginDt" to="EFF_BEGIN_DT" />
+		<map from="effEndDt" to="EFF_END_DT" />
+		<map from="archiveDt" to="ARCHIVE_DT" />
+	</property>
+	<property class="gov.state.nextgen.common.cargo.custom.PmProviderLocCargo">
+		<map from="providerId" to="PROVIDER_ID" />
+		<map from="providerLocId" to="PROVIDER_LOC_ID" />
+		<map from="effBeginDt" to="EFF_BEGIN_DT" />
+		<map from="effEndDt" to="EFF_END_DT" />
+		<map from="archiveDt" to="ARCHIVE_DT" />
+		<map from="legalEntityId" to="LEGAL_ENTITY_ID" />
+	</property>
+	<property
+		class="gov.state.nextgen.common.cargo.custom.PmProviderLocCntcCargo">
+		<map from="providerId" to="PROVIDER_ID" />
+		<map from="providerLocId" to="PROVIDER_LOC_ID" />
+		<map from="contactId" to="CONTACT_ID" />
+		<map from="archiveDt" to="ARCHIVE_DT" />
+		<map from="effBeginDt" to="EFF_BEGIN_DT" />
+		<map from="effEndDt" to="EFF_END_DT" />
+		<map from="legalEntityId" to="LEGAL_ENTITY_ID" />
+	</property>
+	<property
+		class="gov.state.nextgen.common.cargo.custom.PmProviderLocInfoCargo">
+		<map from="providerId" to="PROVIDER_ID" />
+		<map from="providerLocId" to="PROVIDER_LOC_ID" />
+		<map from="effBeginDt" to="EFF_BEGIN_DT" />
+		<map from="effEndDt" to="EFF_END_DT" />
+		<map from="archiveDt" to="ARCHIVE_DT" />
+		<map from="legalEntityId" to="LEGAL_ENTITY_ID" />
+		<map from="locInfoTypeCd" to="LOC_INFO_TYPE_CD" />
+	</property>
+	<property
+		class="gov.state.nextgen.common.cargo.custom.PmProviderLocRateCargo">
+		<map from="providerLocId" to="PROVIDER_LOC_ID" />
+		<map from="careLevelCd" to="CARE_LEVEL_CD" />
+		<map from="schTypeCd" to="SCH_TYPE_CD" />
+		<map from="archiveDt" to="ARCHIVE_DT" />
+		<map from="effBeginDt" to="EFF_BEGIN_DT" />
+		<map from="effEndDt" to="EFF_END_DT" />
+		<map from="providerId" to="PROVIDER_ID" />
+		<map from="legalEntityId" to="LEGAL_ENTITY_ID" />
+		<map from="providerLocRateSeqNum" to="PROVIDER_LOC_RATE_SEQ_NUM" />
+		<map from="rateCd" to="RATE_CD" />
+	</property>
+	<property
+		class="gov.state.nextgen.common.cargo.custom.PmProviderLocStatusCargo">
+		<map from="providerId" to="PROVIDER_ID" />
+		<map from="providerLocId" to="PROVIDER_LOC_ID" />
+		<map from="effBeginDt" to="EFF_BEGIN_DT" />
+		<map from="statusTypeCd" to="STATUS_TYPE_CD" />
+		<map from="effEndDt" to="EFF_END_DT" />
+		<map from="archiveDt" to="ARCHIVE_DT" />
+		<map from="legalEntityId" to="LEGAL_ENTITY_ID" />
+	</property>
+	<property class="gov.state.nextgen.common.cargo.custom.PmStdEnrlmntSchCargo">
+		<map from="enrlmntId" to="ENRLMNT_ID" />
+		<map from="dayCd" to="DAY_CD" />
+		<map from="effBeginDt" to="EFF_BEGIN_DT" />
+		<map from="effEndDt" to="EFF_END_DT" />
+		<map from="archiveDt" to="ARCHIVE_DT" />
+	</property>
+	<property
+		class="gov.state.nextgen.common.cargo.custom.CiMemberIncarcerationCargo">
+		<map from="memberId" to="MEMBER_ID" />
+		<map from="effBeginDt" to="EFF_BEGIN_DT" />
+		<map from="effEndDt" to="EFF_END_DT" />
+		<map from="archiveDt" to="ARCHIVE_DT" />
+		<map from="sequenceNum" to="SEQUENCE_NUM" />
+	</property>
+	<property class="gov.state.nextgen.common.cargo.custom.EmployerLookupCargo">
+		<map from="effBeginDt" to="EFF_BEGIN_DT" />
+		<map from="effEndDt" to="EFF_END_DT" />
+		<map from="archiveDt" to="ARCHIVE_DT" />
+		<map from="sequenceNum" to="SEQUENCE_NUM" />
+	</property>
+	<property class="gov.state.nextgen.common.cargo.custom.ThirdPartyLookupCargo">
+		<map from="thirdPartyId" to="THIRD_PARTY_ID" />
+		<map from="effBeginDt" to="EFF_BEGIN_DT" />
+		<map from="effEndDt" to="EFF_END_DT" />
+		<map from="archiveDt" to="ARCHIVE_DT" />
+		<map from="sequenceNum" to="SEQUENCE_NUM" />
+	</property>
+	<property class="gov.state.nextgen.common.cargo.custom.CiMemberExpenseCargo">
+		<map from="memberId" to="MEMBER_ID" />
+		<map from="effBeginDt" to="EFF_BEGIN_DT" />
+		<map from="effEndDt" to="EFF_END_DT" />
+		<map from="archiveDt" to="ARCHIVE_DT" />
+		<map from="sequenceNum" to="SEQUENCE_NUM" />
+	</property>
+	<property
+		class="gov.state.nextgen.common.cargo.custom.CiChildCareExpenseCargo">
+		<map from="memberId" to="MEMBER_ID" />
+		<map from="effBeginDt" to="EFF_BEGIN_DT" />
+		<map from="effEndDt" to="EFF_END_DT" />
+		<map from="archiveDt" to="ARCHIVE_DT" />
+		<map from="seqNum" to="SEQ_NUM" />
+	</property>
+	<property class="gov.state.nextgen.common.cargo.custom.OeSupportOrderCargo">
+		<map from="caseNum" to="CASE_NUM" />
+		<map from="effBeginDt" to="EFF_BEGIN_DT" />
+		<map from="effEndDt" to="EFF_END_DT" />
+		<map from="archiveDt" to="ARCHIVE_DT" />
+		<map from="sequenceNum" to="SEQUENCE_NUM" />
+	</property>
+	<property class="gov.state.nextgen.common.cargo.custom.OeObligationsCargo">
+		<map from="orderId" to="ORDER_ID" />
+		<map from="effBeginDt" to="EFF_BEGIN_DT" />
+		<map from="effEndDt" to="EFF_END_DT" />
+		<map from="archiveDt" to="ARCHIVE_DT" />
+		<map from="obligationId" to="OBLIGATION_ID" />
+	</property>
+	<property
+		class="gov.state.nextgen.common.cargo.custom.MoEmployeeDmDocTagCargo">
+		<map from="empId" to="EMP_ID" />
+		<map from="contentTagCd" to="CONTENT_TAG_CD" />
+		<map from="primaryTagSw" to="PRIMARY_TAG_SW" />
+		<map from="effBeginDt" to="EFF_BEGIN_DT" />
+		<map from="effEndDt" to="EFF_END_DT" />
+		<map from="archiveDt" to="ARCHIVE_DT" />
+		<map from="officeNum" to="OFFICE_NUM" />
+	</property>
+	<property
+		class="gov.state.nextgen.common.cargo.custom.PePtrntyRescindDtlsCargo">
+		<map from="childId" to="CHILD_ID" />
+		<map from="effBeginDt" to="EFF_BEGIN_DT" />
+		<map from="effEndDt" to="EFF_END_DT" />
+		<map from="archiveDt" to="ARCHIVE_DT" />
+		<map from="sequenceNum" to="SEQUENCE_NUM" />
+	</property>
+	<property class="gov.state.nextgen.common.cargo.custom.SourceLookupCargo">
+		<map from="effBeginDt" to="EFF_BEGIN_DT" />
+		<map from="effEndDt" to="EFF_END_DT" />
+		<map from="archiveDt" to="ARCHIVE_DT" />
+		<map from="sequenceNum" to="SEQUENCE_NUM" />
+	</property>
+	<property class="gov.state.nextgen.common.cargo.custom.CiMedicalExpenseCargo">
+		<map from="memberId" to="MEMBER_ID" />
+		<map from="effBeginDt" to="EFF_BEGIN_DT" />
+		<map from="effEndDt" to="EFF_END_DT" />
+		<map from="archiveDt" to="ARCHIVE_DT" />
+		<map from="sequenceNum" to="SEQUENCE_NUM" />
+	</property>
+
+	<property
+		class="gov.state.nextgen.common.cargo.custom.DcIncomeJointOwnershipCargo">
+		<map from="indvId" to="INDV_ID" />
+		<map from="selfEmpSeqNum" to="SELF_EMP_SEQ_NUM" />
+		<map from="jointOwnerSeqNum" to="JOINT_OWNER_SEQ_NUM" />
+		<map from="effBeginDt" to="EFF_BEGIN_DT" />
+		<map from="effEndDt" to="EFF_END_DT" />
+		<map from="archiveDt" to="ARCHIVE_DT" />
+	</property>
+	<property
+		class="gov.state.nextgen.common.cargo.custom.DcLiquidResAddnlDetlCargo">
+		<map from="liquidResAddnlSeqNum" to="LIQUID_RES_ADDNL_SEQ_NUM" />
+		<map from="indvId" to="INDV_ID" />
+		<map from="effBeginDt" to="EFF_BEGIN_DT" />
+		<map from="effEndDt" to="EFF_END_DT" />
+		<map from="archiveDt" to="ARCHIVE_DT" />
+		<map from="sequenceNum" to="SEQUENCE_NUM" />
+	</property>
+	<property
+		class="gov.state.nextgen.common.cargo.custom.DcLiquidResAnnuitiesCargo">
+		<map from="liquidResAnnSeqNum" to="LIQUID_RES_ANN_SEQ_NUM" />
+		<map from="indvId" to="INDV_ID" />
+		<map from="effBeginDt" to="EFF_BEGIN_DT" />
+		<map from="effEndDt" to="EFF_END_DT" />
+		<map from="archiveDt" to="ARCHIVE_DT" />
+		<map from="sequenceNum" to="SEQUENCE_NUM" />
+	</property>
+	<property class="gov.state.nextgen.common.cargo.custom.DcPraCargo">
+		<map from="indvId" to="INDV_ID" />
+		<map from="effBeginDt" to="EFF_BEGIN_DT" />
+		<map from="effEndDt" to="EFF_END_DT" />
+		<map from="archiveDt" to="ARCHIVE_DT" />
+	</property>
+	<property class="gov.state.nextgen.common.cargo.custom.DcSelfEmpBusRecCargo">
+		<map from="indvId" to="INDV_ID" />
+		<map from="busRecSeqNum" to="BUS_REC_SEQ_NUM" />
+		<map from="selfEmpSeqNum" to="SELF_EMP_SEQ_NUM" />
+		<map from="effBeginDt" to="EFF_BEGIN_DT" />
+		<map from="effEndDt" to="EFF_END_DT" />
+		<map from="archiveDt" to="ARCHIVE_DT" />
+	</property>
+	<property
+		class="gov.state.nextgen.common.cargo.custom.DcSelfEmpScheduleCCargo">
+		<map from="indvId" to="INDV_ID" />
+		<map from="selfEmpSeqNum" to="SELF_EMP_SEQ_NUM" />
+		<map from="scheduleCSeqNum" to="SCHEDULE_C_SEQ_NUM" />
+		<map from="historySeq" to="HISTORY_SEQ" />
+		<map from="effBeginDt" to="EFF_BEGIN_DT" />
+		<map from="effEndDt" to="EFF_END_DT" />
+		<map from="archiveDt" to="ARCHIVE_DT" />
+	</property>
+	<property
+		class="gov.state.nextgen.common.cargo.custom.DcSelfEmpScheduleExpCargo">
+		<map from="indvId" to="INDV_ID" />
+		<map from="selfEmpSeqNum" to="SELF_EMP_SEQ_NUM" />
+		<map from="scheduleExpSeqNum" to="SCHEDULE_EXP_SEQ_NUM" />
+		<map from="effBeginDt" to="EFF_BEGIN_DT" />
+		<map from="effEndDt" to="EFF_END_DT" />
+		<map from="archiveDt" to="ARCHIVE_DT" />
+	</property>
+	<property
+		class="gov.state.nextgen.common.cargo.custom.DcSelfEmpScheduleFCargo">
+		<map from="indvId" to="INDV_ID" />
+		<map from="selfEmpSeqNum" to="SELF_EMP_SEQ_NUM" />
+		<map from="scheduleFSeqNum" to="SCHEDULE_F_SEQ_NUM" />
+		<map from="historySeq" to="HISTORY_SEQ" />
+		<map from="effBeginDt" to="EFF_BEGIN_DT" />
+		<map from="effEndDt" to="EFF_END_DT" />
+		<map from="archiveDt" to="ARCHIVE_DT" />
+	</property>
+	<property
+		class="gov.state.nextgen.common.cargo.custom.DcUnearnedChildSupportCargo">
+		<map from="unearnedSeqNum" to="UNEARNED_SEQ_NUM" />
+		<map from="indvId" to="INDV_ID" />
+		<map from="archiveDt" to="ARCHIVE_DT" />
+		<map from="effBeginDt" to="EFF_BEGIN_DT" />
+		<map from="effEndDt" to="EFF_END_DT" />
+		<map from="childIndvId" to="CHILD_INDV_ID" />
+	</property>
+
+	<property class="gov.state.nextgen.common.cargo.custom.DcDisabMedtDtlCargo">
+		<map from="effBeginDt" to="EFF_BEGIN_DT" />
+		<map from="effEndDt" to="EFF_END_DT" />
+		<map from="indvId" to="INDV_ID" />
+		<map from="disabMedtSeqNum" to="DISAB_MEDT_SEQ_NUM" />
+		<map from="archiveDt" to="ARCHIVE_DT" />
+	</property>
+
+	<property class="gov.state.nextgen.common.cargo.custom.DcHealthCovDtlCargo">
+		<map from="effBeginDt" to="EFF_BEGIN_DT" />
+		<map from="effEndDt" to="EFF_END_DT" />
+		<map from="indvId" to="INDV_ID" />
+		<map from="healthCovSeqNum" to="HEALTH_COV_SEQ_NUM" />
+		<map from="archiveDt" to="ARCHIVE_DT" />
+	</property>
+	<property
+		class="gov.state.nextgen.common.cargo.custom.DcMedicaidCertDtlCargo">
+		<map from="effBeginDt" to="EFF_BEGIN_DT" />
+		<map from="effEndDt" to="EFF_END_DT" />
+		<map from="indvId" to="INDV_ID" />
+		<map from="medCertSeqNum" to="MED_CERT_SEQ_NUM" />
+		<map from="archiveDt" to="ARCHIVE_DT" />
+	</property>
+	<property class="gov.state.nextgen.common.cargo.custom.DcDacPickleInfoCargo">
+		<map from="effBeginDt" to="EFF_BEGIN_DT" />
+		<map from="effEndDt" to="EFF_END_DT" />
+		<map from="dacPickleInfoSeqNum" to="DAC_PICKLE_INFO_SEQ_NUM" />
+		<map from="indvId" to="INDV_ID" />
+		<map from="archiveDt" to="ARCHIVE_DT" />
+	</property>
+	<property class="gov.state.nextgen.common.cargo.custom.DcPresEligDtlCargo">
+		<map from="effBeginDt" to="EFF_BEGIN_DT" />
+		<map from="effEndDt" to="EFF_END_DT" />
+		<map from="indvId" to="INDV_ID" />
+		<map from="preEligSeqNum" to="PRE_ELIG_SEQ_NUM" />
+		<map from="archiveDt" to="ARCHIVE_DT" />
+	</property>
+	<property
+		class="gov.state.nextgen.common.cargo.custom.DcEmpHealthCovDtlCargo">
+		<map from="effBeginDt" to="EFF_BEGIN_DT" />
+		<map from="effEndDt" to="EFF_END_DT" />
+		<map from="indvId" to="INDV_ID" />
+		<map from="empHealthCovSeqNum" to="EMP_HEALTH_COV_SEQ_NUM" />
+		<map from="archiveDt" to="ARCHIVE_DT" />
+	</property>
+
+	<!-- Added by Anita -->
+	<property class="gov.state.nextgen.common.cargo.custom.DcAddlExpenseCargo">
+		<map from="effBeginDt" to="EFF_BEGIN_DT" />
+		<map from="effEndDt" to="EFF_END_DT" />
+		<map from="indvId" to="INDV_ID" />
+		<map from="sequenceNum" to="SEQUENCE_NUM" />
+		<map from="archiveDt" to="ARCHIVE_DT" />
+	</property>
+	
+	<!-- ADDED BY AVIRAL FOR EEDEV 4269 - DCLIQIDRES TAX_EXEMPT AND DCLIQUIDRES STOCKS -->
+	<property class="gov.state.nextgen.common.cargo.custom.DcLiquidResTaxExemptCargo">
+                <map from="effBeginDt" to="EFF_BEGIN_DT"/> 
+                <map from="effEndDt" to="EFF_END_DT"/> 
+                <map from="liquidResTaxExemptSeqNum" to="LIQUID_RES_TAX_EXEMPT_SEQ_NUM"/> 
+                <map from="indvId" to="INDV_ID"/> 
+                <map from="archiveDt" to="ARCHIVE_DT"/> 
+    </property>
+
+    <property class="gov.state.nextgen.common.cargo.custom.DcLiquidResStocksCargo">
+                <map from="effBeginDt" to="EFF_BEGIN_DT"/> 
+                <map from="effEndDt" to="EFF_END_DT"/> 
+                <map from="liquidResStockSeqNum" to="LIQUID_RES_STOCK_SEQ_NUM"/> 
+                <map from="indvId" to="INDV_ID"/> 
+                <map from="archiveDt" to="ARCHIVE_DT"/> 
+    </property>
+	
+    <!-- Added By Siva -->
+    <property class="gov.state.nextgen.common.cargo.custom.DcPenaltyCargo">
+                <map from="effBeginDt" to="EFF_BEGIN_DT"/> 
+                <map from="effEndDt" to="EFF_END_DT"/> 
+                <map from="indvId" to="INDV_ID"/> 
+                <map from="sequenceNum" to="SEQUENCE_NUM"/> 
+                <map from="resourceSeqNum" to="RESOURCE_SEQ_NUM" />
+                <map from="archiveDt" to="ARCHIVE_DT"/> 
+    </property>
+</mappers>
